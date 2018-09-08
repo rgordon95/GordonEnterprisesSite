@@ -1,6 +1,6 @@
-  $primaryColor: rgb(6, 27, 139);
-  $secondaryColor: rgb(3, 99, 168);
-  $thirdColor: rgb(22, 170, 244); //main
+  $primaryColor: rgb(15, 153, 62);
+  $secondaryColor: rgb(21, 106, 17);
+  $thirdColor: rgb(34, 36, 41);
   $fourthColor: white;
   $hoverColor: $thirdColor;
   $highlightColor: $secondaryColor;
@@ -10,27 +10,22 @@
 
 //font imports (alphabetical)
 @font-face {
-  font-family: avenirMain;
+  font-family: MainFont;
   src: url(../fonts/Avenir-Medium.ttf)
 }
 
 @font-face {
-  font-family: ralewayBold;
+  font-family: HeaderFont;
   src: url(../fonts/Raleway-Bold.ttf)
 }
 
 @font-face {
-  font-family: ralewayDark;
-  src: url(../fonts/Raleway-Black.ttf)
-}
-
-@font-face {
-  font-family: ralewayStandard;
+  font-family: ParagraphFont;
   src: url(../fonts/Raleway-Regular.ttf)
 }
 
 @font-face {
-  font-family: ralewayThin;
+  font-family: AccentFont;
   src: url(../fonts/Raleway-Thin.ttf)
 }
 
@@ -51,7 +46,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $fourthColor;
-    font-family: ralewayStandard;
+    font-family: ParagraphFont;
     span {
       padding-right: 5px;
       color: $primaryColor;
@@ -89,10 +84,10 @@
   }
 
   .modal {
-    font-family: ralewayBold;
+    font-family: HeaderFont;
     color: $primaryColor;
     .modal-body {
-      font-family: avenirMain;
+      font-family: MainFont;
       color: black;
     }
     .modal-footer {
@@ -115,7 +110,7 @@
     background-size: cover;
     img {
 
-      font-family: ralewayBold;
+      font-family: HeaderFont;
     }
     }
 
@@ -154,7 +149,7 @@
         }
          #callToAction {
           border-bottom: 2px solid white;
-          font-family: ralewayStandard;
+          font-family: ParagraphFont;
           margin-right: 1000px;
           padding-left: 175px;
           padding-top: 200px;
@@ -174,7 +169,7 @@
       }
 
       #motto {
-        font-family: ralewayStandard;
+        font-family: ParagraphFont;
       }
   }
 
@@ -184,16 +179,16 @@
    margin-right: 7px;
    margin-top: 75px;
    color: $secondaryColor;
-   font-family: avenirMain;
+   font-family: MainFont;
    text-align: center;
      h1 {
-       font-family: avenirMain;
+       font-family: MainFont;
        text-align: center;
        padding-bottom: 25px;
      }
      content {
        color: $primaryColor;
-       font-family: avenirMain;
+       font-family: MainFont;
        margin-bottom: 5px;
        padding: 5px;
        border-bottom: 1px solid $secondaryColor;
@@ -223,7 +218,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $fourthColor;
-    font-family: ralewayThin;
+    font-family: AccentFont;
     color: $secondaryColor;
     margin-top: 200px;
     padding-bottom: 0px;
@@ -231,11 +226,11 @@
     width: 100%;
     h5 {
       margin-top: 10px;
-      font-family: ralewayStandard;
+      font-family: ParagraphFont;
     }
     li {
       margin-top: 7px;
-      font-family: ralewayThin;
+      font-family: AccentFont;
     }flex
      a {
        color: $primaryColor;
@@ -247,7 +242,7 @@
        margin-top: 7px;
         a {
           margin-top: 10px;
-          font-family: ralewayThin;
+          font-family: AccentFont;
         }
      }
   }
@@ -278,9 +273,6 @@
     margin-bottom: 10px;
 
 }
-  .download {
-    border-bottom: none;
-  }
   .features {
     padding: 7px;
     margin-bottom: 15px;
@@ -355,7 +347,7 @@
 
   //faq specific styles
   .faq {
-    font-family: avenirMain;
+    font-family: MainFont;
     .card {
 
       .card-header {
