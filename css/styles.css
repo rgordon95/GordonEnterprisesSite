@@ -1,0 +1,324 @@
+@font-face {
+  font-family: avenirMain;
+  src: url(../fonts/Avenir-Medium.ttf); }
+
+@font-face {
+  font-family: ralewayBold;
+  src: url(../fonts/Raleway-Bold.ttf); }
+
+@font-face {
+  font-family: ralewayDark;
+  src: url(../fonts/Raleway-Black.ttf); }
+
+@font-face {
+  font-family: ralewayStandard;
+  src: url(../fonts/Raleway-Regular.ttf); }
+
+@font-face {
+  font-family: ralewayThin;
+  src: url(../fonts/Raleway-Thin.ttf); }
+
+#logoHide {
+  padding-right: 75px;
+  opacity: 0; }
+
+#mottoHide {
+  opacity: 0; }
+
+nav {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  font-family: ralewayStandard; }
+  nav span {
+    padding-right: 5px;
+    color: #061b8b; }
+  nav li .active {
+    color: #0363a8; }
+  nav a {
+    color: #0363a8; }
+    nav a:hover {
+      color: #16aaf4;
+      background-color: rgba(150, 147, 146, 0.21); }
+    nav a:focus {
+      color: #0363a8; }
+
+.alert {
+  font-family: Quicksand; }
+  .alert a {
+    font-weight: bold;
+    color: #061b8b; }
+    .alert a:hover {
+      color: #16aaf4; }
+    .alert a:focus {
+      color: #0363a8; }
+
+.modal {
+  font-family: ralewayBold;
+  color: #061b8b; }
+  .modal .modal-body {
+    font-family: avenirMain;
+    color: black; }
+  .modal .modal-footer {
+    background-color: #0363a8; }
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  body header {
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body header img {
+      font-family: ralewayBold; }
+  body .jumbotron {
+    color: white;
+    background-image: url("../img/computer-device-display-953213.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: auto;
+    background-color: #1693F9; }
+    @media screen and (min-width: 1700px) {
+      body .jumbotron {
+        height: 1300px;
+        background-size: cover; } }
+    body .jumbotron h1 {
+      color: floralwhite;
+      font-weight: bolder;
+      padding-top: 90px;
+      padding-right: 250px;
+      text-align: right; }
+      @media screen and (min-width: 1700px) {
+        body .jumbotron h1 {
+          padding-top: 150px; } }
+    body .jumbotron h3 {
+      color: floralwhite;
+      padding-top: 40px;
+      padding-right: 100px;
+      text-align: right; }
+    body .jumbotron #callToAction {
+      border-bottom: 2px solid white;
+      font-family: ralewayStandard;
+      margin-right: 1000px;
+      padding-left: 175px;
+      padding-top: 200px;
+      text-align: left !important; }
+      @media screen and (min-width: 1700px) {
+        body .jumbotron #callToAction {
+          padding-top: 265px; } }
+    body .jumbotron #downloadNow {
+      margin: 0 0 0 0;
+      padding-top: 10px; }
+      body .jumbotron #downloadNow img {
+        padding-top: 10px; }
+    body .jumbotron #motto {
+      font-family: ralewayStandard; }
+  body main {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 75px;
+    color: #0363a8;
+    font-family: avenirMain;
+    text-align: center; }
+    body main h1 {
+      font-family: avenirMain;
+      text-align: center;
+      padding-bottom: 25px; }
+    body main content {
+      color: #061b8b;
+      font-family: avenirMain;
+      margin-bottom: 5px;
+      padding: 5px;
+      border-bottom: 1px solid #0363a8; }
+      body main content h2 {
+        text-align: center; }
+      body main content h3 {
+        text-align: center; }
+      body main content p {
+        margin-top: 7px;
+        text-align: center; }
+      body main content i {
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 7px; }
+  body footer {
+    z-index: 3;
+    background-image: url("../img/blank-clean-color-889087.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    font-family: ralewayThin;
+    color: #0363a8;
+    margin-top: 200px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    width: 100%; }
+    body footer h5 {
+      margin-top: 10px;
+      font-family: ralewayStandard; }
+    body footer li {
+      margin-top: 7px;
+      font-family: ralewayThin; }
+    body footer flex
+a {
+      color: #061b8b; }
+      body footer flex
+a:hover, body footer flex
+a:focus {
+        color: #0363a8; }
+    body footer address {
+      margin-top: 7px; }
+      body footer address a {
+        margin-top: 10px;
+        font-family: ralewayThin; }
+
+main .about {
+  padding-bottom: 15px;
+  background-color: #061b8b;
+  color: white; }
+  main .about h1 {
+    color: #0363a8; }
+
+main .credit {
+  background-image: url("../img/blank-clean-color-889087.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  margin-bottom: 10px; }
+
+main .download {
+  border-bottom: none; }
+
+main .features {
+  padding: 7px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 3px outset rgba(150, 147, 146, 0.21);
+  border-top: 3px outset rgba(150, 147, 146, 0.21);
+  background-color: floralwhite; }
+
+main .logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: none; }
+
+main .mantra {
+  border-bottom: 3px outset rgba(150, 147, 146, 0.21);
+  border-top: 3px outset rgba(150, 147, 146, 0.21);
+  background-color: floralwhite;
+  margin-bottom: 15px;
+  padding-bottom: 15px; }
+
+main .options {
+  background-color: #061b8b;
+  color: white;
+  padding-top: 10px; }
+
+main .savings {
+  background-image: url("../img/blank-clean-color-889087.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  margin-bottom: 10px; }
+  main .savings .outer {
+    padding-top: 25px; }
+
+main .universal {
+  border-bottom: none;
+  -ms-flex-item-align: center;
+      align-self: center; }
+  main .universal i {
+    display: inline-block;
+    -ms-flex-item-align: center;
+        align-self: center; }
+  main .universal .card {
+    background-color: rgba(150, 147, 146, 0.21);
+    border-color: #0363a8;
+    margin: 7px 15px 3px 3px; }
+    main .universal .card .card-title {
+      text-align: center;
+      vertical-align: baseline; }
+
+.faq {
+  font-family: avenirMain; }
+  .faq .card .card-header {
+    background-color: #16aaf4;
+    color: white; }
+  .faq div {
+    margin-bottom: 7px; }
+
+#feedback {
+  margin-bottom: 25px;
+  /* Form itself */
+  /* Resize testarea */
+  /* Google captcha */
+  /* Fix sizing on captcha */
+  /* Submit button */
+  /* All feedback in a card */ }
+  #feedback #feedback-head {
+    text-align: center;
+    color: #061b8b;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #feedback #mail-form {
+    width: 85%;
+    max-width: 500px; }
+  #feedback textarea {
+    resize: none;
+    overflow: scroll; }
+  #feedback #captcha {
+    margin-bottom: 30px; }
+  #feedback .g-recaptcha div {
+    margin-left: auto;
+    margin-right: auto; }
+  @media only screen and (max-width: 420px) {
+    #feedback .g-recaptcha {
+      -webkit-transform: scale(0.81);
+              transform: scale(0.81);
+      -webkit-transform-origin: 0;
+              transform-origin: 0; } }
+  #feedback .btn-primary:hover {
+    color: white;
+    background-color: #061b8b;
+    border-color: #061b8b; }
+  #feedback .btn-primary:active {
+    color: white;
+    background-color: #061b8b;
+    border-color: #061b8b; }
+  #feedback .btn-primary:focus {
+    background-color: #061b8b;
+    border-color: #061b8b; }
+  #feedback .btn-primary:active:focus {
+    color: white;
+    background-color: #061b8b;
+    border-color: #061b8b; }
+  #feedback .btn-primary:disabled {
+    color: white;
+    background-color: #061b8b; }
+  #feedback .btn-primary:disabled:hover {
+    color: white;
+    background-color: #061b8b; }
+  #feedback .btn-primary {
+    color: #061b8b;
+    background-color: white;
+    border-color: #061b8b; }
+  #feedback .card {
+    margin: auto;
+    margin-top: 30px;
+    min-width: 50%;
+    max-width: 75%; }
+  #feedback .card-body {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  #feedback .form-group {
+    margin-bottom: 10px; }

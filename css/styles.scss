@@ -1,0 +1,480 @@
+  $primaryColor: rgb(6, 27, 139);
+  $secondaryColor: rgb(3, 99, 168);
+  $thirdColor: rgb(22, 170, 244); //main
+  $fourthColor: white;
+  $hoverColor: $thirdColor;
+  $highlightColor: $secondaryColor;
+  $gray: rgba(150, 147, 146, 0.21);
+
+  $break-xl: 1700px;
+
+//font imports (alphabetical)
+@font-face {
+  font-family: avenirMain;
+  src: url(../fonts/Avenir-Medium.ttf)
+}
+
+@font-face {
+  font-family: ralewayBold;
+  src: url(../fonts/Raleway-Bold.ttf)
+}
+
+@font-face {
+  font-family: ralewayDark;
+  src: url(../fonts/Raleway-Black.ttf)
+}
+
+@font-face {
+  font-family: ralewayStandard;
+  src: url(../fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+  font-family: ralewayThin;
+  src: url(../fonts/Raleway-Thin.ttf)
+}
+
+//also use quicksand which is available by default
+
+  //entire site
+
+  //nav
+  #logoHide {
+    padding-right: 75px;
+    opacity: 0;
+
+  }
+  #mottoHide {
+     opacity: 0;
+  }
+    nav {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $fourthColor;
+    font-family: ralewayStandard;
+    span {
+      padding-right: 5px;
+      color: $primaryColor;
+
+    }
+    li {
+      .active {
+        color: $highlightColor;
+      }
+    }
+     a {
+       color: $secondaryColor;
+       &:hover {
+         color: $hoverColor;
+         background-color: $gray;
+       }
+       &:focus, {
+         color: $highlightColor;
+       }
+     }
+  }
+
+  .alert {
+    font-family: Quicksand;
+    a {
+      font-weight: bold;
+      color: $primaryColor;
+      &:hover {
+        color: $hoverColor;
+      }
+      &:focus, {
+        color: $highlightColor;
+      }
+    }
+  }
+
+  .modal {
+    font-family: ralewayBold;
+    color: $primaryColor;
+    .modal-body {
+      font-family: avenirMain;
+      color: black;
+    }
+    .modal-footer {
+      background-color: $secondaryColor;
+    }
+
+  }
+
+  //generic body includes header and footer
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    justify-content: center;
+
+
+  //header specific
+  header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    img {
+
+      font-family: ralewayBold;
+    }
+    }
+
+
+  .jumbotron {
+      color: white;
+      background-image: url('../img/computer-device-display-953213.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1000px;
+      width: auto;
+      background-color: #1693F9;
+
+      @media screen and (min-width: $break-xl) {
+        height: 1300px;
+        background-size: cover;
+
+      }
+      h1 {
+        color: floralwhite;
+        font-weight: bolder;
+        padding-top: 90px;
+        padding-right: 250px;
+        text-align: right;
+        @media screen and (min-width: $break-xl) {
+          padding-top: 150px;
+
+        }
+      }
+      h3 {
+        color: floralwhite;
+        padding-top: 40px;
+        padding-right: 100px;
+        text-align: right;
+
+        }
+         #callToAction {
+          border-bottom: 2px solid white;
+          font-family: ralewayStandard;
+          margin-right: 1000px;
+          padding-left: 175px;
+          padding-top: 200px;
+          text-align: left !important;
+          @media screen and (min-width: $break-xl) {
+            padding-top: 265px;
+
+          }
+
+      }
+      #downloadNow {
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        img {
+          padding-top: 10px;
+        }
+      }
+
+      #motto {
+        font-family: ralewayStandard;
+      }
+  }
+
+  //main body content
+  main {
+   margin-left: 7px;
+   margin-right: 7px;
+   margin-top: 75px;
+   color: $secondaryColor;
+   font-family: avenirMain;
+   text-align: center;
+     h1 {
+       font-family: avenirMain;
+       text-align: center;
+       padding-bottom: 25px;
+     }
+     content {
+       color: $primaryColor;
+       font-family: avenirMain;
+       margin-bottom: 5px;
+       padding: 5px;
+       border-bottom: 1px solid $secondaryColor;
+       h2 {
+         text-align: center;
+       }
+       h3 {
+         text-align: center;
+       }
+       p {
+         margin-top: 7px;
+         text-align: center;
+       }
+       i {
+         text-align: center;
+         margin-bottom: 5px;
+         margin-top: 7px;
+       }
+     }
+  }
+
+
+  //footer
+  footer {
+    z-index: 3;
+    background-image: url("../img/blank-clean-color-889087.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $fourthColor;
+    font-family: ralewayThin;
+    color: $secondaryColor;
+    margin-top: 200px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    width: 100%;
+    h5 {
+      margin-top: 10px;
+      font-family: ralewayStandard;
+    }
+    li {
+      margin-top: 7px;
+      font-family: ralewayThin;
+    }flex
+     a {
+       color: $primaryColor;
+         &:hover, &:focus {
+         color: $highlightColor;
+       }
+     }
+     address {
+       margin-top: 7px;
+        a {
+          margin-top: 10px;
+          font-family: ralewayThin;
+        }
+     }
+  }
+
+} //end body
+  //end entire site styles
+
+
+  //index specific styles
+
+  main {
+
+  .about {
+    padding-bottom: 15px;
+    background-color: $primaryColor;
+    color: white;
+    h1 {
+      color: $secondaryColor;
+    }
+  }
+  .credit {
+    background-image: url('../img/blank-clean-color-889087.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+
+}
+  .download {
+    border-bottom: none;
+  }
+  .features {
+    padding: 7px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px outset $gray;
+    border-top: 3px outset $gray;
+    background-color: floralwhite;
+
+  }
+
+  .icon {
+
+
+  }
+  .logo {
+  //  background-color: $primaryColor;
+  //  color: white;
+  // background-image: url('../img/.jpg')
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: none;
+  }
+  .mantra {
+  //  background-color: $gray;
+  border-bottom: 3px outset $gray;
+  border-top: 3px outset $gray;
+  background-color: floralwhite;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  .options {
+    background-color: $primaryColor;
+    color: white;
+    padding-top: 10px;
+  }
+  .savings {
+    background-image: url('../img/blank-clean-color-889087.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    .outer {
+      padding-top: 25px;
+    }
+  }
+
+   .universal {
+     border-bottom: none;
+     i {
+       display: inline-block;
+       align-self: center;
+     }
+     align-self: center;
+    .card {
+      background-color: $gray;
+      border-color: $secondaryColor;
+      margin: 7px 15px 3px 3px;
+      .card-title {
+        text-align: center;
+        vertical-align: baseline;
+
+      }
+    }
+   }
+
+   .welcome {
+   }
+}
+  //end index specific styles
+
+  //faq specific styles
+  .faq {
+    font-family: avenirMain;
+    .card {
+
+      .card-header {
+        background-color: $thirdColor;
+        color: $fourthColor;
+      }
+
+      .card-body {
+
+      }
+
+    }
+    div {
+      margin-bottom: 7px;
+  }
+}
+
+  //end faq specific styles
+
+  //contact specific styles
+
+  #feedback {
+      margin-bottom: 25px;
+
+     #feedback-head {
+      	text-align: center;
+        color: $primaryColor;
+      	font-size: 30px;
+      	font-family: 'Quicksand', sans-serif;
+      	margin-top: 20px;
+      	margin-bottom: 20px;
+      }
+
+  /* Form itself */
+  #mail-form {
+  	width: 85%;
+  	max-width: 500px;
+  }
+
+  /* Resize testarea */
+  textarea {
+  	resize: none;
+  	overflow: scroll;
+  }
+
+  /* Google captcha */
+  #captcha {
+  	margin-bottom: 30px;
+  }
+
+  /* Fix sizing on captcha */
+  .g-recaptcha div { margin-left: auto; margin-right: auto;}
+
+  @media only screen and (max-width: 420px) {
+  	.g-recaptcha {
+  	transform:scale(0.81);
+  	transform-origin: 0;
+  	}
+  }
+
+  /* Submit button */
+  .btn-primary:hover {
+    color: $fourthColor;
+  	background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:active {
+    color: $fourthColor;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:focus {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:active:focus {
+    color: $fourthColor;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:disabled {
+  	color: white;
+  	background-color: $primaryColor;
+  }
+
+  .btn-primary:disabled:hover {
+  	color: white;
+  	background-color: $primaryColor;
+  }
+
+  .btn-primary {
+  	color: $primaryColor;
+    background-color: white;
+    border-color: $primaryColor;
+  }
+
+  /* All feedback in a card */
+  .card {
+  	margin: auto;
+  	margin-top: 30px;
+  	min-width: 50%;
+  	max-width: 75%;
+  }
+
+  .card-body {
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+  }
+
+  .form-group {
+  	margin-bottom: 10px;
+  }
+
+
+
+} //feedback
+
+  //end contact specific styles

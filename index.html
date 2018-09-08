@@ -1,0 +1,293 @@
+<!--
+To DO:
+(all screens)
++add screenshots?
++add subject functionality to php
++add "us vs competitor" table?
++add more subtle animations
+
+(large+ screens only)
++add dropdown to reveal download links once scroll past the download apps section
++fix cover image formatting on xl screens
++ ease in and out opacity fade for nav animations
+
+(mobile screens only)
++add option on dropdown for download links
++make sure cards are same height
+
+ -->
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+	<meta http-equiv='x-ua-compatible' content='ie=edge'>
+
+	<meta name="description" content="Personal finance app specializing in optimization of spending through both active and passive methods. We use our financial sense to save you cents, improve your credit score and maximize your financial situation.">
+	<meta name="keywords" content="Personal Finance, technology, fintech, savings, credit, sense, credit score, spending, financial health, self improvement, ios, android, web, best finance, improve credit, shopping, savings,  investing, finance, ecommerce, commerce">
+	<meta name="robots" content="index">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<title>Sense | Finance Done Right</title>
+</head>
+
+<body>
+	<!-- Begin Body & Navbar -->
+	<nav class='navbar navbar-inverse navbar-expand-lg fixed-top'>
+		<div class='container-fluid'>
+			<!-- Container 1 -->
+			<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class='fas fa-bars fa-lg'></span>
+         </button>
+			<!--     <a class='navbar-brand' href='#'> <img src='img/senseLogo.png' height='30' width='41'> </a>  removed navbar logo img -->
+			<div class='collapse navbar-collapse' id='navbar'>
+				<ul class='navbar-nav mr-auto'>
+					<li class='nav-item active'><a class='nav-link' href='./index.html'><span class='fa fa-home fa-lg'></span> Home</a></li>
+					<li class='nav-item'><a class='nav-link' href='./faq.html'><span class='fa fa-list fa-lg'></span> FAQ</a></li>
+					<li class='nav-item'><a class='nav-link' href='./contact.html'><span class='fa fa-address-card fa-lg'></span> Contact</a></li>
+				</ul>
+				<span id='logoHide'>Sense</span>
+				<span id='mottoHide'>Financial Intelligence for all</span>
+				<div id ='downloadDropdown' class="dropdown">
+  				<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    				Download
+  			 </button>
+         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <a class="dropdown-item" href="#">Chrome</a>
+           <a class="dropdown-item" href="#">Android</a>
+           <a class="dropdown-item" href="#">ios</a>
+         </div>
+       </div>
+			</div>
+			<!-- Close navbar collapse div-->
+		</div>
+		<!--Close container 1 -->
+	</nav>
+	<!-- End Nav -->
+
+	<header class='jumbotron d-none d-lg-block'>
+		<h1 class='col-12' id='logo'>Sense</h1>
+		<h3 class='col-12' id='motto'>Financial intelligence for all</h3>
+		<h3 class='col col-12' id='callToAction'>Join the hype</h3>
+		<div class='row' id='downloadNow'>
+			<div class=row>
+			<img src='./img/google-play-badge.png' alt='google play store link' class='d-none d-lg-block col-2' width="40px" height="75px">
+			<img src='./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'  class='d-none d-lg-block col-2 ' alt='apple app store link'  width="40px" height="75px">
+			<img src='./img/finalchrome.jpeg' alt='google play store link' class='d-none d-lg-block col-2' width="40px" height="75px">
+      </div>
+			<div class='row-6'></div>
+
+		</div>
+	</header>
+
+	<main class='container-fluid'>
+		<!-- Container 2 -->
+
+
+		<content class='logo row'>
+		<h1 class='col col-12'>Sense</h1>
+		<p class='col col-12'>Financial intelligence for all</p>
+	  </content>
+
+		<content class='row about'>
+			<p class='col col-12 col-md-6'>Helping optimize your financial health through monitoring spending, applying discounts, plus maximizing rewards and other benefits. </p>
+			<p class='col col-12 col-md-6'>Founded in the Spring of 2018, at Sense we strive to provide our customers an easy way to track spending, budget, increase your credit score, plus get maximum rewards and perks from your spending habits.</p>
+		</content>
+
+				<h1 class='col col-12 icon d-none d-md-block' ><i class='fas fa-funnel-dollar icon'></i></h1>
+			 <h1 class='col col-12 d-none d-md-block'>Savings Made Simple</h1>
+			 <content class='row savings'>
+				 <p class='col col-12 col-sm-4 outer'>Automatic bill reminders & budgeting made easy.</p>
+				 <p class='col col-12 col-sm-4'>With Sense's optimizations, saving money and earning points or miles has never been more effortless.</p>
+				 <p class='col col-12 col-sm-4 outer '>Never miss out on additional savings again. </p>
+			 </content>
+
+		<content class='row mantra'>
+				 <h1 class='col col-12 d-none d-md-block'>The Sense Difference</h1>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-concierge-bell'>
+					<p class='col col-12'>We strive to meet your every financial need</p> </i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-cog'>
+					<p class='col col-12'>Optimized based on your cards as well as the retailers you visit online and in person</p></i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-sliders-h'>
+					<p class='col col-12'>We give you control over our algorithm to be tailored specifically to you</p></i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-wallet'>
+					<p class='col col-12'>Sense does all the legwork, you reap the benefit</p></i>
+				</div>
+    </content>
+
+
+		<h1 class='col col-12 icon d-none d-md-block'><i class='fas fa-umbrella icon'></i></h1>
+		<h1 class='row row-12 d-none d-md-block'>We've got you covered</h1>
+	<content class='row universal'>
+		<div class="col-sm-6">
+	     <div class="card">
+	       <div class="card-body">
+           <h5 class='card-title'><i class=' fas fa-cart-plus'></i></h5>
+	         <h5 class="card-title">Online</h5>
+	         <p class="card-text">Simply go about your shopping, and Sense will automatically detect when you arrive at checkout,
+	 					populating the best card info based on your preferences and that specific retailer, as well as applying
+	 					any promo code or discount we can find!</p>
+	       </div>
+	     </div>
+	   </div>
+
+	   <div class="col-sm-6">
+	     <div class="card">
+	       <div class="card-body">
+					 <h5 class='card-title'><i class='fas fa-store'></i></h5>
+	         <h5 class="card-title">In-Store</h5>
+	         <p class="card-text">Whenever you are ready to make a purchase, simply check your phone for a notification from Sense, or open the app for us to tell you the best card to use! It's like magic. </br></br></p>
+	       </div>
+	     </div>
+	   </div>
+	</content>
+
+		<content class='row features'>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-compass'>
+					<p class='col col-12'>We always recommend the card best for the purchase, and your preferences</p> </i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-calculator'>
+					<p class='col col-12'>All of your information is stored and transmitted in a secure manner</p></i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-calendar-alt'>
+					<p class='col col-12'>Category tracker will tell you when to activate additional bonuses, automatically</p></i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-check-circle'>
+					<p class='col col-12'>Sense does all the legwork, you reap the benefit</p></i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-tachometer-alt'>
+					<p class='col col-12'>Our credit builder ensures you adhere to best practices to keep your credit score climbing higher</p> </i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-database'>
+					<p class='col col-12'>Our extensive database is constantly being updated to keep information accurate</p></i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-tag'>
+					<p class='col col-12'>Our chrome extension applies the usual sense magic, in addition to locating the best promo codes and discounts</p></i>
+				</div>
+				<div class='col col-6 col-md-3'>
+					<i class='fas fa-bolt'>
+					<p class='col col-12'>Our universal card allows you to configure your preferences in the app, then pay without ever having to check your phone again</p></i>
+				</div>
+
+		</content>
+
+    <h1 class='col col-12 d-none d-md-block'>Savings & Peace of Mind</h1>
+		<content class='row options'>
+			<h5 class='fas fa-shield-alt col-md-6 d-none d-md-block'></h5>
+			<h5 class='fas fa-coins col-md-6 d-none d-md-block'></h5>
+			 <p class='col col-12 col-md-6'>Choose to go for maximum benefits to have us suggest the card with the most perks.
+				Can you say first class upgrades? What about exclusive concert tickets? Peace of mind while traveling can be priceless.</p>
+			 <p class='col col-12 col-md-6'>Choose to go for maximum benefits to have us suggest the card with the most perks.
+				Can you say first class upgrades? What about exclusive concert tickets? Peace of mind while traveling can be priceless.
+			 </p></p>
+		 </content>
+		</content>
+
+		<h1 class='col col-12 d-none d-md-block'>Increase Your Credit Score</h1>
+		<content class='row credit'>
+			<p class='col col-12 col-sm-4 '>Our algorithm can build in healthy credit building habits, automatically.</p>
+			<p class='col col-12 col-sm-4'>Improve your credit score and unlock access to better loans, cards and a happier financial picture.</p>
+			<p class='col col-12 col-sm-4 '>Just program your due dates, credit limit, and income, and we take care of the rest. </p>
+		</content>
+
+	  <content class='row download'>
+			<h1 class='col col-12 d-none d-md-block'>Download now!</h1>
+			<img src='./img/google-play-badge.png' alt='google play store link' class='col col-sm-12 col-md-4' width="200px" height="75px">
+			<img src='./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='google play store link' class='col col-sm-12 col-md-4' width="200px" height="75px">
+			<img src='./img/google-play-badge.png' alt='google play store link' class='col col-sm-12 col-md-4' width="200px" height="75px">
+		</div>
+  	</content>
+
+		<!-- Modal -->
+		<div class="modal fade" id="cookieModal" tabindex="-1" role="dialog" aria-labelledby="cookie Policy" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="cookieModalTitle">Cookie Policy</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        cookies cookies cookies
+						we track erryfuckinthang, bitch
+						aint nuttin u can do about it
+						das Right
+						get Doxxed mufucka
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+</main>
+	<!--close container -->
+
+	<footer class='footer container-fluid'>
+		<div class='row'>
+			<div class='col-5 col-sm-2 offset-1'>
+				<h5 class='mb-3'>Links</h5>
+				<ul class='list-unstyled'>
+					<li><a href='./index.html'>Home</a></li>
+					<li><a href='./faq.html'>FAQ</a></li>
+					<li><a href='./contact.html'>Contact</a></li>
+				</ul>
+			</div>
+			<div class='col-6 col-sm-5'>
+				<h5 class='mb-3'>Location</h5>
+				<address>
+			  	Sterling, Massachusettes<br>
+			   	USA
+				  <br>
+					<i class='fas fa-envelope d-none d-md-block'><a href='support@sensible.app' class=''>support@sensible.app</a></i>
+		    </address>
+			</div>
+			<div class='col col-sm-4 align-self-center'>
+				<div style='text-align:center'>
+					<a class='btn btn-social-icon btn-facebook' href='https://www.facebook.com/senseappllc'><i class='fab fa-facebook'></i></a>
+					<a class='btn btn-social-icon btn-twitter' href='https://www.twitter.com/senseappllc'><i class='fab fa-twitter'></i></a>
+					<a class='btn btn-social-icon fa-md' href='https://www.instagram.com/senseappllc'><i class='fab fa-instagram'></i></a>
+					<a class='btn btn-social-icon fa-md' href='mailto:senseappllc@gmail.com'><i class='fas fa-envelope'></i></a>
+				</div>
+			</div>
+		</div>
+		<div class='row justify-content-center'>
+			<div class='col col-auto'>
+				<p>Made with love at Sense</p></a>
+			</div>
+		</div>
+	</footer>
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js' crossorigin='anonymous'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
+<script src='./js/nav.js'></script>
+
+</body>
+
+</html>
