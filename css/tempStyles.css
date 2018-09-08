@@ -29,7 +29,7 @@
 
 body {
   background-image: url('../img/4k-wallpaper-architecture-background-1308624.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-color: white;
   -webkit-box-pack: center;
