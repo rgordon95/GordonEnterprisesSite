@@ -228,7 +228,13 @@ main .savings {
     padding-top: 25px; }
 
 main .universal {
-  border-bottom: none;
+  background-image: url("../img/architecture-buildings-china-1366957.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: 100;
   -ms-flex-item-align: center;
       align-self: center; }
   main .universal i {
