@@ -227,6 +227,13 @@ main .savings {
   main .savings .outer {
     padding-top: 25px; }
 
+main .tech-icons {
+  padding-right: 5px;
+  padding-left: 5px; }
+
+main .tech-icons-wrapper {
+  padding-bottom: 5px; }
+
 main .universal {
   background-image: url("../img/architecture-buildings-china-1366957.jpg");
   background-attachment: fixed;
