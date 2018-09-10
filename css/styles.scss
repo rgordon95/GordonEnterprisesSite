@@ -119,11 +119,12 @@
 
   .jumbotron {
       color: white;
-
-      background-image: url('../img/blue-ocean-water-5412-flipped-blur-2.png');
+      background-attachment: fixed;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 1000px;
+      height: 100%;
+      background-image: url('../img/blue-ocean-water-5412-flipped-blur-2.png');
       width: auto;
       background-color: $secondaryColor;
       z-index: -2;
@@ -306,11 +307,7 @@
     margin-bottom: 15px;
     padding-bottom: 15px;
   }
-  .options {
-    background-color: $primaryColor;
-    color: white;
-    padding-top: 10px;
-  }
+
   .savings {
     background-image: url('../img/blank-clean-color-889087.jpg');
     background-repeat: no-repeat;
@@ -323,6 +320,11 @@
       padding-top: 25px;
     }
   }
+.tech {
+    background-color: $primaryColor;
+    color: white;
+    padding-top: 10px;
+   }
 .tech-icons {
   padding-right: 5px;
   padding-left: 5px;
