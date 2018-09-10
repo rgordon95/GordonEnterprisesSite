@@ -234,7 +234,6 @@ main .universal {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  z-index: 100;
   -ms-flex-item-align: center;
       align-self: center; }
   main .universal i {
