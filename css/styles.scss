@@ -277,20 +277,7 @@
     margin-bottom: 10px;
 
 }
-  .features {
-    padding: 7px;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    border-bottom: 3px outset $gray;
-    border-top: 3px outset $gray;
-    background-color: floralwhite;
 
-  }
-
-  .icon {
-
-
-  }
   .logo {
   //  background-color: $primaryColor;
   //  color: white;
@@ -298,14 +285,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: none;
-  }
-  .mantra {
-  //  background-color: $gray;
-  border-bottom: 3px outset $gray;
-  border-top: 3px outset $gray;
-  background-color: floralwhite;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
   }
 
   .savings {
@@ -320,6 +299,18 @@
       padding-top: 25px;
     }
   }
+  .specialties {
+  //  background-color: $gray;
+  border-bottom: 3px outset $gray;
+  border-top: 3px outset $gray;
+  background-color: floralwhite;
+  padding-bottom: 15px;
+    h2 {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
 .tech {
     background-color: $primaryColor;
     color: white;

@@ -193,25 +193,10 @@ main .credit {
   padding-bottom: 25px;
   margin-bottom: 10px; }
 
-main .features {
-  padding: 7px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  border-bottom: 3px outset rgba(150, 147, 146, 0.21);
-  border-top: 3px outset rgba(150, 147, 146, 0.21);
-  background-color: floralwhite; }
-
 main .logo {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: none; }
-
-main .mantra {
-  border-bottom: 3px outset rgba(150, 147, 146, 0.21);
-  border-top: 3px outset rgba(150, 147, 146, 0.21);
-  background-color: floralwhite;
-  margin-bottom: 15px;
-  padding-bottom: 15px; }
 
 main .savings {
   background-image: url("../img/blank-clean-color-889087.jpg");
@@ -223,6 +208,15 @@ main .savings {
   margin-bottom: 10px; }
   main .savings .outer {
     padding-top: 25px; }
+
+main .specialties {
+  border-bottom: 3px outset rgba(150, 147, 146, 0.21);
+  border-top: 3px outset rgba(150, 147, 146, 0.21);
+  background-color: floralwhite;
+  padding-bottom: 15px; }
+  main .specialties h2 {
+    padding-top: 15px;
+    padding-bottom: 15px; }
 
 main .tech {
   background-color: #0f993e;
