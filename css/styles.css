@@ -239,7 +239,7 @@ main .universal {
   height: 100%;
   -ms-flex-item-align: center;
       align-self: center; }
-  main .universal i {
+  main .universal span {
     display: inline-block;
     -ms-flex-item-align: center;
         align-self: center; }
