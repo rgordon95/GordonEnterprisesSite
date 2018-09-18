@@ -218,6 +218,63 @@ main .specialties {
     padding-top: 15px;
     padding-bottom: 15px; }
 
+main content.service1 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #0f993e;
+  padding-bottom: 35px; }
+  main content.service1 h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 25px; }
+  main content.service1 p {
+    text-align: center;
+    margin-top: 25px; }
+  main content.service1 .title-icon {
+    margin-top: 20px; }
+
+main content.service3 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #0f993e;
+  padding-bottom: 35px; }
+  main content.service3 h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 25px; }
+  main content.service3 p {
+    text-align: center;
+    margin-top: 25px; }
+  main content.service3 .title-icon {
+    margin-top: 20px; }
+
+main content.service2 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #0f993e;
+  padding-bottom: 35px; }
+  main content.service2 h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 25px; }
+  main content.service2 p {
+    text-align: center;
+    margin-top: 25px; }
+  main content.service2 .title-icon {
+    margin-top: 20px; }
+
+main content.service1 img {
+  padding-left: 35px;
+  width: 90%; }
+
+main content.service2 img {
+  padding: 15px;
+  width: 90%; }
+
+main content.service3 img {
+  padding-left: 35px;
+  width: 90%; }
+
 main .tech {
   background-color: #0f993e;
   color: white;
