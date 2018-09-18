@@ -111,11 +111,6 @@ body {
       @media screen and (min-width: 1700px) {
         body .jumbotron #callToAction {
           padding-top: 265px; } }
-    body .jumbotron #downloadNow {
-      margin: 0 0 0 0;
-      padding-top: 10px; }
-      body .jumbotron #downloadNow img {
-        padding-top: 10px; }
     body .jumbotron #motto {
       font-family: ParagraphFont; }
   body main {
