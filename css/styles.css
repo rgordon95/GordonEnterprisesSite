@@ -294,6 +294,11 @@ content.service2 {
     margin-top: 25px; }
   content.service2 .title-icon {
     margin-top: 20px; }
+  content.service2 .social-icons {
+    padding-right: 5px;
+    padding-left: 5px; }
+  content.service2 .social-icons-wrapper {
+    margin-top: 50px; }
 
 content.service1 img {
   padding-left: 35px;
@@ -306,6 +311,19 @@ content.service2 img {
 content.service3 img {
   padding-left: 35px;
   width: 90%; }
+
+content.tech {
+  background-color: #0f993e;
+  color: white;
+  padding-top: 10px;
+  margin-bottom: 0; }
+
+.tech-icons {
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.tech-icons-wrapper {
+  padding-bottom: 5px; }
 
 .contact {
   color: #0f993e;
