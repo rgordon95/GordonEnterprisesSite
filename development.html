@@ -56,6 +56,43 @@
 
 	  </content>
 
+    <content class='row tech'>
+      <h2 class='col col-12 d-none d-md-block'>Web Development Services</h2>
+      <h5 class='fas fa-code col-md-6 d-none d-md-block'></h5>
+      <h5 class='fas fa-cloud-upload-alt col-md-6 d-none d-md-block'></h5>
+       <p class='col col-12 col-md-6'>We use the latest technologies to revamp your current web presense or create a brand new, custom experience from the ground up.</p>
+       <p class='col col-12 col-md-6'> From animating your front end and securing your backend, to creating a content management system for you to edit content, our full stack team can handle it all.
+       </p>
+       <h4 class='col col-12'> some of the technologies we use</h4>
+       <h5 class='col col-12 tech-icons-wrapper'><span class='fab fa-cpanel tech-icons'></span>
+       <span class='fab fa-js-square tech-icons'></span> <span class='fab fa-gulp tech-icons'></span>
+       <span class='fab fa-css3-alt tech-icons'></span><span class='fab fa-npm tech-icons'></span>
+       <span class='fab fa-github tech-icons'></span><span class='fab fa-linux tech-icons'></span>
+       <span class='fab fa-mailchimp tech-icons'></span><span class='fab fa-aws tech-icons'></span>
+       <span class='fab fa-font-awesome tech-spancons'></span><span class='fab fa-html5 tech-icons'></span>
+       <span class='fab fa-node-js tech-icons'></span><span class='fab fa-php tech-icons'></span><span class='fab fa-git-square tech-icons'></span>
+       <span class='fab fa-react tech-icons'></span><span class='fab fa-sass tech-icons'></span></h5>
+    </content>
+
+    <content class='row specialties'>
+         <h2 class='col col-12 d-none d-md-block'>Our Specialties</h2>
+        <div class='col col-6 col-md-3'>
+          <span class='fas fa-concierge-bell'>
+          <p class='col col-12'>Custom tailored packages that fit your business image and needs.</p> </span>
+        </div>
+        <div class='col col-6 col-md-3'>
+          <span class='fas fa-edit'>
+          <p class='col col-12'>Intuitive Content Management Systems for your employees to edit your site without needing to understand the code.</p></span>
+        </div>
+        <div class='col col-6 col-md-3'>
+          <span class='fas fa-sliders-h'>
+          <p class='col col-12'>Search Engine Optimization to help you connect with your customers.</p></span>
+        </div>
+        <div class='col col-6 col-md-3'>
+          <span class='fas fa-database'>
+          <p class='col col-12'>Linux hosting using cPanel, GoDaddy or AWS.</p></span>
+        </div>
+    </content>
 <content class='row row-12 service1'>
     <div class="col col-12 col-lg-6" >
       <img src="./img/black-and-white-board-game-challenge-951229.jpg" alt="house with manicured lawn" class='bigImg'>
@@ -149,6 +186,65 @@
       </ul>
     </div>
   </div>
+</content>
+
+<content class='row row-12 hours'>
+	<div class="col col-12 col-lg-6" >
+	<h2 class='col col-12'>Get In Touch</h3>
+			<p>Give us a call or send us an email to get started creating or revamping your digital presence today.</p>
+	<h4 class=''>Hours</h4>
+	<p>Monday: 8 AM - 5 PM</p>
+	<p>Tuesday: 8 AM - 5 PM</p>
+	<p>Wednesday: 8 AM - 5 PM</p>
+	<p>Thursday: 8 AM - 5 PM</p>
+	<p>Friday: 8 AM - 5 PM</p>
+	<p>Saturday: 12 PM - 5 PM</p>
+	<h4>Phone</h4>
+	<p>(518) 235-1234</p>
+	</div>
+	<div class="col col-12 col-lg-6" >
+		<content class="container-fluid" id='feedback'>
+			<div class="row row-12">
+				<div class="card col col-12">
+					<div class="card-heading">
+						<h1 id="feedback-head">Contact Us</h1>
+					</div>
+
+					<div class="card-body">
+						<!-- Start form -->
+							<!-- Post request to php script -->
+							<form action="./php/feedback_handler.php" method="post" name="form">
+
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" placeholder="Name" required><br>
+								</div>
+
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" placeholder="Email" required><br>
+								</div>
+
+								<div class="form-group">
+									<input type="tel" name="phone" class="form-control" placeholder="Phone" required><br>
+								</div>
+
+								<div class="form-group">
+									<textarea name="msg" class="form-control" placeholder="Enter Your Message Here" rows="4" required></textarea><br>
+								</div>
+
+								<div id="captcha">
+									<div class="g-recaptcha" data-sitekey="6LfH6CYUAAAAABpPRnS13C7lJCrcfKXEkjFVnJF8"></div>
+								</div>
+
+								<input type="submit" name="submit" value="Send" class="btn btn-lg btn-primary btn-block">
+
+							</form>
+					</div>
+
+				</div>
+
+			</div>
+		</content>
+	</div>
 </content>
 
 

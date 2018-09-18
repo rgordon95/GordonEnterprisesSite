@@ -296,26 +296,16 @@
   //  background-color: $gray;
   border-bottom: 3px outset $gray;
   border-top: 3px outset $gray;
-  background-color: floralwhite;
+  //background-color: floralwhite;
   padding-bottom: 15px;
+  margin: 0;
     h2 {
       padding-top: 15px;
       padding-bottom: 15px;
     }
   }
 
-.tech {
-    background-color: $primaryColor;
-    color: white;
-    padding-top: 10px;
-   }
-.tech-icons {
-  padding-right: 5px;
-  padding-left: 5px;
-}
-.tech-icons-wrapper {
-  padding-bottom: 5px;
-}
+
    .universal {
      background-image: url('../img/architecture-buildings-china-1366957.jpg');
      background-attachment: fixed;
@@ -347,6 +337,24 @@
 
 //development page stylesheet
 
+content.hours {
+  border: none;
+  color: $primaryColor;
+  h2 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+  } h4 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+  p {
+    text-align: center;
+    margin-top: 5px;
+  }
+}
   content.service1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: $primaryColor;
@@ -418,6 +426,14 @@ content.service3 img {
 
 
   //contact specific styles
+
+  .contact {
+    color: $primaryColor;
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
 
   #feedback {
       margin-bottom: 25px;
