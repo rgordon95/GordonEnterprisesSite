@@ -325,6 +325,10 @@ content.tech {
 .tech-icons-wrapper {
   padding-bottom: 5px; }
 
+.tech-list-title {
+  padding-top: 25px;
+  padding-bottom: 20px; }
+
 .contact {
   color: #0f993e;
   margin-top: 75px;
