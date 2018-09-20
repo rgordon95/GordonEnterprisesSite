@@ -227,7 +227,8 @@ main .universal {
     -ms-flex-item-align: center;
         align-self: center; }
   main .universal .card {
-    background-color: rgba(150, 147, 146, 0.21);
+    color: white;
+    background-color: #156a11;
     border-color: #156a11;
     margin: 7px 15px 3px 3px; }
     main .universal .card .card-title {

@@ -318,7 +318,8 @@
      }
      align-self: center;
     .card {
-      background-color: $gray;
+      color: white;
+      background-color: $secondaryColor;
       border-color: $secondaryColor;
       margin: 7px 15px 3px 3px;
       .card-title {
