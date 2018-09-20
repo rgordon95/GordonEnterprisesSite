@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: HeaderFont;
-  src: url(../fonts/Raleway-Bold.ttf); }
+  src: url(../fonts/Lato-Regular.ttf); }
 
 @font-face {
   font-family: ParagraphFont;
-  src: url(../fonts/Raleway-Regular.ttf); }
+  src: url(../fonts/Lato-Regular.ttf); }
 
 @font-face {
   font-family: AccentFont;
@@ -79,7 +79,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    background-image: url("../img/blue-ocean-water-5412-flipped-blur-2.png");
+    background-image: url("../img/astronomy-atmosphere-aurora-borealis-9027572.jpg");
     width: auto;
     background-color: #156a11;
     z-index: -2; }
