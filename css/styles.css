@@ -245,7 +245,7 @@ content.hours {
   content.hours h4 {
     text-align: center;
     padding-top: 35px;
-    padding-bottom: 20px; }
+    padding-bottom: 10px; }
   content.hours p {
     text-align: center;
     margin-top: 5px; }
@@ -259,6 +259,10 @@ content.service1 {
     font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 25px; }
+  content.service1 h4 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px; }
   content.service1 p {
     text-align: center;
     margin-top: 25px; }
@@ -274,6 +278,10 @@ content.service3 {
     font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 25px; }
+  content.service3 h4 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px; }
   content.service3 p {
     text-align: center;
     margin-top: 25px; }
