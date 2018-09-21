@@ -117,6 +117,7 @@
     }
 
 
+
   .jumbotron {
       color: white;
       background-attachment: fixed;
@@ -272,12 +273,11 @@
 }
 
   .logo {
-  //  background-color: $primaryColor;
-  //  color: white;
-  // background-image: url('../img/.jpg')
+  background-color: #1f1a1a;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: none;
+  justify-content: center;
   }
 
   .savings {

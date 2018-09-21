@@ -189,9 +189,13 @@ main .credit {
   margin-bottom: 10px; }
 
 main .logo {
+  background-color: #1f1a1a;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: none; }
+  border-bottom: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 main .savings {
   background-image: url("../img/blank-clean-color-889087.jpg");
