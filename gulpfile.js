@@ -99,9 +99,9 @@ gulp.task('scripts-dist', function () {
 
 //added with udacity course - makes producrtion version (minified, linted, etc.)
 gulp.task('dist', [
-  'copy-html',
-  'copy-images',
-  'styles',
-  'lint',
+//  'copy-html',
+  'imagemin',
+//  'styles',
+//  'lint',
   'scripts-dist'
 ]);
