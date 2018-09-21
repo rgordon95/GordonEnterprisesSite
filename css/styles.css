@@ -172,6 +172,7 @@ a:focus {
         font-family: AccentFont; }
 
 main .about {
+  padding-top: 20px;
   padding-bottom: 15px;
   background-color: #0f993e;
   color: white; }
@@ -226,6 +227,7 @@ main .universal {
   -ms-flex-item-align: center;
       align-self: center; }
   main .universal span {
+    padding-top: 20px;
     display: inline-block;
     -ms-flex-item-align: center;
         align-self: center; }

@@ -253,6 +253,7 @@
   main {
 
   .about {
+    padding-top: 20px;
     padding-bottom: 15px;
     background-color: $primaryColor;
     color: white;
@@ -312,6 +313,7 @@
      background-size: cover;
      height: 100%;
      span {
+       padding-top: 20px;
        display: inline-block;
        align-self: center;
      }
