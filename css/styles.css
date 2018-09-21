@@ -127,7 +127,6 @@ body {
     body main content {
       color: #0f993e;
       font-family: MainFont;
-      margin-bottom: 5px;
       padding: 5px;
       border-bottom: 1px solid #156a11; }
       body main content h2 {
@@ -234,7 +233,7 @@ main .universal {
     color: white;
     background-color: #156a11;
     border-color: #156a11;
-    margin: 7px 15px 3px 3px; }
+    margin: 7px 15px 35px 3px; }
     main .universal .card .card-title {
       text-align: center;
       vertical-align: baseline; }
@@ -328,7 +327,6 @@ content.service3 img {
 content.tech {
   background-color: #0f993e;
   color: white;
-  padding-top: 10px;
   margin-bottom: 0; }
   content.tech .tech-icons {
     padding-right: 5px;

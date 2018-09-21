@@ -187,7 +187,6 @@
      content {
        color: $primaryColor;
        font-family: MainFont;
-       margin-bottom: 5px;
        padding: 5px;
        border-bottom: 1px solid $secondaryColor;
        h2 {
@@ -321,7 +320,7 @@
       color: white;
       background-color: $secondaryColor;
       border-color: $secondaryColor;
-      margin: 7px 15px 3px 3px;
+      margin: 7px 15px 35px 3px;
       .card-title {
         text-align: center;
         vertical-align: baseline;
@@ -443,7 +442,7 @@ content.service3 img {
 content.tech {
     background-color: $primaryColor;
     color: white;
-    padding-top: 10px;
+  //  padding-top: 10px;
     margin-bottom: 0;
 
 .tech-icons {
