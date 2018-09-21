@@ -200,7 +200,8 @@ main .links {
     color: #0f993e;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    border: #156a11; }
   main .links .card-img-top {
     width: auto;
     height: 500px; }
