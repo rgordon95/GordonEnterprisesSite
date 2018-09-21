@@ -188,6 +188,23 @@ main .credit {
   padding-bottom: 25px;
   margin-bottom: 10px; }
 
+main .links {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: #0f993e;
+  color: white; }
+  main .links h3 {
+    margin-top: 25px;
+    padding-bottom: 25px; }
+  main .links .card {
+    color: #0f993e;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 35px; }
+  main .links .card-img-top {
+    width: auto;
+    height: 500px; }
+
 main .logo {
   background-color: #1f1a1a;
   background-repeat: no-repeat;
