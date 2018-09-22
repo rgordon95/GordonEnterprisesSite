@@ -22,6 +22,7 @@ TO do:
 
 	<link rel='stylesheet' href='css/styles.css'>
   <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif+KR|Slabo+27px" rel="stylesheet">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	<title>Gordon Enterprises | Not Why, Why Not?</title>
 </head>
@@ -189,65 +190,6 @@ TO do:
 </div>
 </content>
 
-<content class='row row-12 hours'>
-	<div class="col col-12 col-lg-6" >
-	<h2 class='col col-12'>Get In Touch</h3>
-			<p>Send us an email to join us in inspiring greatness today.</p>
-	<h4 class=''>Hours</h4>
-	<p>Monday: 8 AM - 5 PM</p>
-	<p>Tuesday: 8 AM - 5 PM</p>
-	<p>Wednesday: 8 AM - 5 PM</p>
-	<p>Thursday: 8 AM - 5 PM</p>
-	<p>Friday: 8 AM - 5 PM</p>
-	<p>Saturday: 12 PM - 5 PM</p>
-	<!--<h4>Phone</h4>
-	<p>(518) 235-1234</p> -->
-	</div>
-	<div class="col col-12 col-lg-6" >
-		<content class="container-fluid" id='feedback'>
-			<div class="row row-12">
-				<div class="card col col-12">
-					<div class="card-heading">
-						<h1 id="feedback-head">Contact Us</h1>
-					</div>
-
-					<div class="card-body">
-						<!-- Start form -->
-							<!-- Post request to php script -->
-							<form action="./php/feedback_handler.php" method="post" name="form">
-
-								<div class="form-group">
-									<input type="text" name="name" class="form-control" placeholder="Name" required><br>
-								</div>
-
-								<div class="form-group">
-									<input type="email" name="email" class="form-control" placeholder="Email" required><br>
-								</div>
-
-								<div class="form-group">
-									<input type="tel" name="phone" class="form-control" placeholder="Phone" required><br>
-								</div>
-
-								<div class="form-group">
-									<textarea name="msg" class="form-control" placeholder="Enter Your Message Here" rows="4" required></textarea><br>
-								</div>
-
-								<div id="captcha">
-									<div class="g-recaptcha" data-sitekey="6LfH6CYUAAAAABpPRnS13C7lJCrcfKXEkjFVnJF8"></div>
-								</div>
-
-								<input type="submit" name="submit" value="Send" class="btn btn-lg btn-primary btn-block">
-
-							</form>
-					</div>
-
-				</div>
-
-			</div>
-		</content>
-	</div>
-</content>
-
 
 </main>
 	<!--close container -->
@@ -294,27 +236,6 @@ TO do:
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
 
-		<!-- Submit form to php -->
-		<script>
-			$("form").on("submit", function(e) {
-				e.preventDefault();
-				if(grecaptcha.getResponse().length !== 0) {
-					$(".btn").prop("disabled", true);
-					$(".btn").attr("value", "Feedback Submitted!");
-				}
-				else {
-					$(".btn").attr("value", "Click captcha");
-				}
-				$.ajax({
-					type: "post",
-					url: "./php/feedback_handler.php",
-					data: $("form").serialize(),
-					success: function() {
-
-					}
-				})
-			})
-		</script>
 </body>
 
 </html>
