@@ -104,7 +104,12 @@
     background-size: cover;
     background-color: white;
     justify-content: center;
-
+    .contact {
+      h2, h4 {
+       padding-top: 35px;
+       padding-bottom: 35px;
+      }
+    }
 
   //header specific
   header {

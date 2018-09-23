@@ -30,7 +30,7 @@
     		$phone=$_POST['phone'];
     		$msg=$_POST['msg'];
     		$to='contact@gordonholdingsco.com'; // Receiver Email ID, Replace with your email ID
-    		$subject='New Feedback';
+    		$subject='Gordon Enterprises';
     		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
     		$headers="From: rich@gordonholdingsco.com";
     		if(mail($to, $subject, $message, $headers)){

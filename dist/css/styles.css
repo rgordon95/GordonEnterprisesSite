@@ -64,9 +64,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
+  body .contact h2, body .contact h4 {
+    padding-top: 35px;
+    padding-bottom: 35px; }
   body header {
     background-repeat: no-repeat;
     background-size: cover; }
@@ -211,9 +212,7 @@ main .logo {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 main .savings {
   background-image: url("../img/blank-clean-color-889087.jpg");
@@ -229,6 +228,7 @@ main .savings {
 main .specialties {
   border-bottom: 3px outset rgba(150, 147, 146, 0.21);
   border-top: 3px outset rgba(150, 147, 146, 0.21);
+  font-family: MainFont;
   padding-bottom: 15px;
   margin: 0; }
   main .specialties h2 {
@@ -242,13 +242,11 @@ main .universal {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  -ms-flex-item-align: center;
-      align-self: center; }
+  align-self: center; }
   main .universal span {
     padding-top: 20px;
     display: inline-block;
-    -ms-flex-item-align: center;
-        align-self: center; }
+    align-self: center; }
   main .universal .card {
     color: white;
     background-color: #156a11;
@@ -275,8 +273,7 @@ content.hours {
     margin-top: 5px; }
 
 content.service1 {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #0f993e;
   padding-bottom: 35px; }
   content.service1 h2 {
@@ -294,8 +291,7 @@ content.service1 {
     margin-top: 20px; }
 
 content.service3 {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #0f993e;
   padding-bottom: 35px; }
   content.service3 h2 {
@@ -313,8 +309,7 @@ content.service3 {
     margin-top: 20px; }
 
 content.service2 {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #0f993e;
   padding-bottom: 35px; }
   content.service2 h2 {
@@ -391,10 +386,8 @@ content.tech {
     margin-right: auto; }
   @media only screen and (max-width: 420px) {
     #feedback .g-recaptcha {
-      -webkit-transform: scale(0.81);
-              transform: scale(0.81);
-      -webkit-transform-origin: 0;
-              transform-origin: 0; } }
+      transform: scale(0.81);
+      transform-origin: 0; } }
   #feedback .btn-primary:hover {
     color: white;
     background-color: #0f993e;
