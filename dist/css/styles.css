@@ -339,6 +339,9 @@ content.service3 img {
   padding-left: 35px;
   width: 90%; }
 
+#specialIMG {
+  height: 550px; }
+
 content.tech {
   background-color: #0f993e;
   color: white;
