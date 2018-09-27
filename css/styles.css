@@ -160,9 +160,9 @@ body {
       margin-top: 7px;
       font-family: AccentFont; }
     body footer a {
-      color: #0f993e; }
+      color: #156a11; }
       body footer a:hover, body footer a:focus {
-        color: #156a11; }
+        color: #0f993e; }
     body footer address {
       margin-top: 7px; }
       body footer address a {
@@ -426,3 +426,8 @@ content.tech {
     padding-bottom: 30px; }
   #feedback .form-group {
     margin-bottom: 10px; }
+
+#sitemap {
+  border: none;
+  margin-top: 35px;
+  text-align: center; }
