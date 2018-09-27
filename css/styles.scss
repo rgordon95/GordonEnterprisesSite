@@ -305,6 +305,10 @@
   background-size: cover;
   border-bottom: none;
   justify-content: center;
+  img {
+    max-width: 100%;
+    height: 250px;
+  }
   }
 
   .savings {
