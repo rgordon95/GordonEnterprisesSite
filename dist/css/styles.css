@@ -159,12 +159,9 @@ body {
     body footer li {
       margin-top: 7px;
       font-family: AccentFont; }
-    body footer flex
-a {
+    body footer a {
       color: #0f993e; }
-      body footer flex
-a:hover, body footer flex
-a:focus {
+      body footer a:hover, body footer a:focus {
         color: #156a11; }
     body footer address {
       margin-top: 7px; }
