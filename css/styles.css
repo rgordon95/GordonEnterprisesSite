@@ -38,7 +38,11 @@ nav {
       color: #222429;
       background-color: rgba(150, 147, 146, 0.21); }
     nav a:focus {
-      color: #156a11; }
+      color: #156a11;
+      color: #222429;
+      background-color: rgba(150, 147, 146, 0.21); }
+    nav a:active {
+      border-bottom: solid 1px #156a11; }
 
 .alert {
   font-family: Quicksand; }

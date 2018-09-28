@@ -64,8 +64,13 @@
          color: $hoverColor;
          background-color: $gray;
        }
-       &:focus, {
+       &:focus {
          color: $highlightColor;
+         color: $hoverColor;
+         background-color: $gray;
+       }
+       &:active {
+         border-bottom: solid 1px $secondaryColor;
        }
      }
   }
@@ -78,7 +83,7 @@
       &:hover {
         color: $hoverColor;
       }
-      &:focus, {
+      &:focus {
         color: $highlightColor;
       }
     }
