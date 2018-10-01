@@ -346,6 +346,10 @@ content.service3 img {
 #specialIMG {
   height: 550px; }
 
+.specialIMG {
+  height: 600px;
+  width: auto; }
+
 content.tech {
   background-color: #0f993e;
   color: white;
