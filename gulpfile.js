@@ -26,6 +26,7 @@ gulp.task('sass:watch', function () {
 gulp.task('browser-sync', function () {
    var files = [
       './*.html',
+      './services/*.html',
       './css/*.css',
       './img/*.{png,jpg,gif}',
       './js/*.js'
@@ -89,6 +90,22 @@ gulp.task('usemin', function() {
     .pipe(gulp.dest('dist/'));
 });
 
+gulp.task('useminservices', function() {
+  return gulp.src('./services/*.html')
+  .pipe(flatmap(function(stream, file){
+      return stream
+        .pipe(usemin({
+            css: [ rev() ],
+            html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+            js: [ uglify(), rev() ],
+            inlinejs: [ uglify() ],
+            inlinecss: [ cleanCss(), 'concat' ]
+        }))
+    }))
+    .pipe(gulp.dest('dist/services/'));
+});
+
+
 gulp.task('build',['clean'], function() {
-    gulp.start('copyfonts','imagemin','usemin', 'usemincss');
+    gulp.start('copyfonts','imagemin','usemin', 'useminservices', 'usemincss');
 });
