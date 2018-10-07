@@ -42,6 +42,11 @@
   #mottoHide {
      opacity: 0;
   }
+
+#navbar {
+  color: $secondaryColor;
+}
+
     nav {
     z-index: 5;
     background-repeat: no-repeat;
@@ -74,7 +79,7 @@
        }
      }
     li a .dropdown-toggle{
-      
+
     }
   }
 

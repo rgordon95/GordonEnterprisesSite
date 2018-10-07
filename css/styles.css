@@ -21,6 +21,9 @@
 #mottoHide {
   opacity: 0; }
 
+#navbar {
+  color: #156a11; }
+
 nav {
   z-index: 5;
   background-repeat: no-repeat;
