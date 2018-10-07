@@ -21,6 +21,9 @@
 #mottoHide {
   opacity: 0; }
 
+#navbar {
+  color: #156a11; }
+
 nav {
   z-index: 5;
   background-repeat: no-repeat;
@@ -222,10 +225,9 @@ main .savings {
   background-image: url("../img/blank-clean-color-889087.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
+  margin: none;
   padding-top: 40px;
-  padding-bottom: 25px;
-  margin-bottom: 10px; }
+  padding-bottom: 25px; }
   main .savings .outer {
     padding-top: 25px; }
 
