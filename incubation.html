@@ -1,9 +1,3 @@
-<!--
-TO do:
-+replace alt messages
-+check mobile layout
--->
-
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -16,6 +10,8 @@ TO do:
 		<meta name="description" content="Gordon Enterprises specializes in business consulting, web development, start-up incubation, social media marketing and personal financial consulting.">
 		<meta name="keywords" content="development, programming, entrepreneurialism, entrepreneur, incubator, startup, silicon valley, business, consulting, Personal Finance, technology, fintech, savings, credit, sense, credit score, spending, financial health, self improvement, ios, android, web, best finance, improve credit, shopping, savings, augmented, clothing, media, production, marketing, sales, outreach, legal, accounting, tech, technology, augment, music">
 		<meta name="robots" content="index">
+		<meta http-equiv="Cache-control" content="public">
+
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -47,23 +43,48 @@ TO do:
 
 	<body>
 		<!-- Begin Body & Navbar -->
-
 		<nav class='navbar sticky-top navbar-expand-lg'>
 			<div class='container-fluid'>
 				<!-- Container 1 -->
 				<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 					<span class='fas fa-bars fa-lg'></span>
 				</button>
-				<!--     <a class='navbar-brand' href='#'> <img src='img/senseLogo.png' height='30' width='41'> </a>  removed navbar logo img -->
+				<!--     <a class='navbar-brand' href='#'> <img src='img/GordonLogo.png' height='30' width='41'> </a>  removed navbar logo img -->
 				<div class='collapse navbar-collapse' id='navbar'>
 					<ul class='navbar-nav mr-auto'>
-						<li class='nav-item active'><a class='nav-link' href='./index.html' title='Return Home'> Home</a></li>
-						<li class='nav-item'><a class='nav-link' href='./programming.html' title='Learn More About Our Development Services'>Programming</a></li>
-						<li class='nav-item'><a class='nav-link' href='./consulting.html' title='Learn More About Our Business Consulting Services'>Consulting</a></li>
-						<li class='nav-item'><a class='nav-link active' href='./incubation.html' title='Refresh Page'>Incubation</a></li>
-						<!--			<li class='nav-item'><a class='nav-link' href='./brands.html' title='Learn More About Our Brands'>Brands</a></li>
-					<li class='nav-item'><a class='nav-link' href='./about.html' title='Learn More About Us'>About</a></li> -->
-						<li class='nav-item'><a class='nav-link' href='./contact.html' title='Visit Our Contact Page'> Contact</a></li>
+						<li class='nav-item'><a class='nav-link' href='./index.html' title='Return Home'> Home</a></li>
+						<div class="btn-group">
+							<a type="" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Business <span class="sr-only">Toggle Dropdown</span>
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./services/admin.html" title='Learn More About Our Business Admin Services'>Administration</a>
+								<a class="dropdown-item" href="./services/branding.html" title='Learn More About Our Branding Services'>Brand Creation</a>
+								<a class="dropdown-item" href="./services/social.html" title='Learn More About Our Social Media Marketing Services'>Social Media</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="./services/app.html" title='Learn More About Our App Development Services'>App Development</a>
+								<a class="dropdown-item" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a>
+								<a class="dropdown-item" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>Search Rankings (SEO)</a>
+								<a class="dropdown-item" href="./services/cms.html" title='Learn More About Our Content Management Services'>Content Management (CMS)</a>
+							</div>
+						</div>
+						<div class="btn-group">
+							<a type="" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Personal<span class="sr-only">Toggle Dropdown</span>
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./finance.html" title='Learn More About Our Personal Finance Services'>Personal Finance</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="./app.html" title='Learn More About Our App Development Services'>App Development</a>
+								<a class="dropdown-item" href="./web.html" title='Learn More About Our Web Development Services'>Web Development</a>
+								<a class="dropdown-item" href="./seo.html" title='Learn More About Our Search Optimization Services'>Search Rankings (SEO)</a>
+								<a class="dropdown-item" href="./cms.html" title='Learn More About Our Content Management Services'>Content Management (CMS)</a>
+							</div>
+						</div>
+						<!--	<li class='nav-item'><a class='nav-link' href='../brands.html' title='Learn More About Our Brands'>Brands</a></li>
+						<li class='nav-item'><a class='nav-link' href='../about.html' title='Learn More About Us'>About</a></li>
+			-->
+						<li class='nav-item'><a class='nav-link' href='../contact.html' title='Visit Our Contact Page'> Contact</a></li>
 					</ul>
 					<span class='mr-5 .d-none .d-lg-inline' id=''>Gordon Enterprises LLC</span>
 
@@ -81,7 +102,7 @@ TO do:
 			</content>
 
 			<content class='row tech'>
-				<h2 class='col col-12 d-none d-md-block'>Start-up Incubation</h2>
+				<h1 class='col col-12 d-none d-md-block'>Start-up Incubation</h1>
 				<h5 class='fas fa-lightbulb col-md-6 d-none d-md-block'></h5>
 				<h5 class='fas fa-university col-md-6 d-none d-md-block'></h5>
 				<p class='col col-12 col-md-6'>
@@ -94,10 +115,73 @@ TO do:
 				</p>
 			</content>
 
+			<content class='row row-12 service2 '>
+				<div class="col col-sm-12 col-lg-6 order-last order-md-last order-lg-first">
+					<img src="./img/adult-business-computers-256219.jpg" alt="Group Of People Working On Computers" title="Group Of People Working On Computers" class='bigImg'>
+				</div>
+				<div class="col col-12 col-lg-6">
+					<h3 class='title-icon'><span class='col col-12 fas fa-building fa-lg'></span></h3>
+					<h2 class='col col-12'>Incubation</h2>
+					<p>With experience incubating a wide variety of brands, ranging from Financial Technology software start-ups to Artist's, to lifestyle clothing and music brands,
+						we likely have firsthand knowledge of your industry.
+					</p>
+					<div class='row list-titles d-none d-lg-flex mb-3 mt-5'>
+						<h4 class='col col-6 '>Serving</h4>
+						<h4 class='col col-6 '>Industries</h4>
+					</div>
+					<div class='row row-12'>
+						<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
+							<li class='list-item'>Influencer Brands</li>
+							<li class='list-item'>Startups</li>
+							<li class='list-item'>B2B companies</li>
+							<li class='list-item'>Consumer Facing Services</li>
+						</ul>
 
+						<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
+							<li class='list-item'>Hardware</li>
+							<li class='list-item'>Software</li>
+							<li class='list-item'>Arts</li>
+							<li class='list-item'>Individuals</li>
+						</ul>
+					</div>
+				</div>
+			</content>
+
+<content class='row row-12 service2'>
+	<div class="col col-12 col-lg-6">
+		<h3 class='title-icon'><span class='col col-12 fas fa-flask fa-lg'></span></h3>
+		<h2 class='col col-12'>Brand Creation</h2>
+		<p>
+			Our graphic design and marketing specialists will come together to craft a unique identity that fits your vision.
+		</p>
+		<div class='row list-titles d-none d-lg-flex mb-3 mt-5'>
+			<h4 class='col col-12 '>Creating</h4>
+		</div>
+
+		<div class='row row-12'>
+			<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
+				<li class='list-item'>Logos & Icons</li>
+				<li class='list-item'>Slogans</li>
+				<li class='list-item'>Animated SVGs</li>
+				<li class='list-item'>Jingles</li>
+			</ul>
+			<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
+				<li class='list-item'>Sound Pairing</li>
+				<li class='list-item'>Target Audience Focused</li>
+				<li class='list-item'>Detailed & Unique</li>
+				<li class='list-item'>Consistent</li>
+			</ul>
+		</div>
+		<div class='col col-12'>
+			<a class='btn btn-success' type='button' name="button" href='./services/branding.html'>Learn More</a>
+		</div>
+	</div>
+	<div class="col col-12 col-lg-6 order-last">
+		<img src="./img/composition-creativity-hand-1374361.jpg" alt="Consulting" title="Consulting Meeting" class='bigImg'>
+	</div>
+</content>
 
 			<content class='row row-12 service2'>
-
 				<div class="col col-12 col-lg-6">
 					<h3 class='title-icon'><span class='col col-12 fas fa-map fa-lg'></span></h3>
 					<h2 class='col col-12'>Administration Assistance</h2>
@@ -131,72 +215,6 @@ TO do:
 				</div>
 			</content>
 
-
-			<content class='row row-12 service2'>
-				<div class="col col-12 col-lg-6">
-					<h3 class='title-icon'><span class='col col-12 fas fa-flask fa-lg'></span></h3>
-					<h2 class='col col-12'>Brand Creation</h2>
-					<p>
-						Our graphic design and marketing specialists will come together to craft a unique identity that fits your vision.
-					</p>
-					<div class='row list-titles d-none d-lg-flex mb-3 mt-5'>
-						<h4 class='col col-12 '>Creating</h4>
-					</div>
-
-					<div class='row row-12'>
-						<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
-							<li class='list-item'>Logos & Icons</li>
-							<li class='list-item'>Slogans</li>
-							<li class='list-item'>Animated SVGs</li>
-							<li class='list-item'>Jingles</li>
-						</ul>
-
-						</ul>
-
-						<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
-							<li class='list-item'>Sound Pairing</li>
-							<li class='list-item'>Target Audience Focused</li>
-							<li class='list-item'>Detailed & Unique</li>
-							<li class='list-item'>Consistent</li>
-					</div>
-				</div>
-				<div class="col col-12 col-lg-6">
-					<img src="./img/composition-creativity-hand-1374361.jpg" alt="Consulting" title="Consulting Meeting" class='bigImg'>
-				</div>
-			</content>
-
-			<content class='row row-12 service3 '>
-				<div class="col col-sm-12 col-lg-6 order-last order-md-last order-lg-first">
-					<img src="./img/adult-business-computers-256219.jpg" alt="Group Of People Working On Computers" title="Group Of People Working On Computers" class='bigImg'>
-				</div>
-				<div class="col col-12 col-lg-6">
-					<h3 class='title-icon'><span class='col col-12 fas fa-globe fa-lg'></span></h3>
-					<h2 class='col col-12'>Incubation</h2>
-					<p>With experience incubating a wide variety of brands, ranging from Financial Technology software start-ups to Artist's, to lifestyle clothing and music brands,
-						we likely have firsthand knowledge of your industry.
-					</p>
-					<div class='row list-titles d-none d-lg-flex mb-3 mt-5'>
-						<h4 class='col col-6 '>Serving</h4>
-						<h4 class='col col-6 '>Industries</h4>
-					</div>
-					<div class='row row-12'>
-						<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
-							<li class='list-item'>Influencer Brands</li>
-							<li class='list-item'>Startups</li>
-							<li class='list-item'>B2B companies</li>
-							<li class='list-item'>Consumer Facing Services</li>
-						</ul>
-
-						<ul class='list-unstyled  col col-12 col-lg-6 offset-sm-4 offset-md-0 offset-lg-0 d-none d-lg-inline'>
-							<li class='list-item'>Hardware</li>
-							<li class='list-item'>Software</li>
-							<li class='list-item'>Arts</li>
-							<li class='list-item'>Individuals</li>
-						</ul>
-					</div>
-				</div>
-			</content>
-
 			<content class='row row-12 service2 '>
 				<div class="col col-12 col-lg-6">
 					<h3 class='title-icon'><span class='col col-12 fas fa-balance-scale fa-lg'></span></h3>
@@ -217,11 +235,11 @@ TO do:
 					</div>
 				</div>
 				<div class="col col-12 col-lg-6">
-					<img src="./img/analysis-business-businesswoman-955447.jpg" alt="Business Women" title="Business Women" class='bigImg'>
+					<img src="./img/accounting-analytics-balance-209224.jpg" alt="Calculator and Paper " title="Calculator & Paper" class='bigImg'>
 				</div>
 			</content>
 
-			<content class='row row-12 service1'>
+			<content class='row row-12 service2'>
 				<div class="col col-12 col-lg-6 order-last order-md-last order-lg-first">
 					<img src="./img/air-airship-art-237779.jpg" alt="People Playing Chess" title="People Playing Chess" class='bigImg'>
 				</div>
@@ -284,39 +302,28 @@ TO do:
 								<!-- Start form -->
 								<!-- Post request to php script -->
 								<form action="./php/feedback_handler.php" method="post" name="form">
-
 									<div class="form-group">
 										<input type="text" name="name" class="form-control" placeholder="Name" required><br>
 									</div>
-
 									<div class="form-group">
 										<input type="email" name="email" class="form-control" placeholder="Email" required><br>
 									</div>
-
 									<div class="form-group">
 										<input type="tel" name="phone" class="form-control" placeholder="Phone" required><br>
 									</div>
-
 									<div class="form-group">
 										<input type="subject" name="subject" class="form-control" placeholder="Subject" required><br>
 									</div>
-
 									<div class="form-group">
 										<textarea name="msg" class="form-control" placeholder="Enter Your Message..." rows="4" required></textarea><br>
 									</div>
-
 									<div id="captcha">
 										<div class="g-recaptcha" data-sitekey="6LftiXEUAAAAAAIy_JZBoVYbDeGrgO0hZ_FJ_iim"></div>
-
 									</div>
-
 									<input type="submit" name="submit" value="Send" class="btn btn-lg btn-primary btn-block">
-
 								</form>
 							</div>
-
 						</div>
-
 					</div>
 				</content>
 			</div>
@@ -325,31 +332,48 @@ TO do:
 
 		<footer class='footer container-fluid'>
 			<div class='row'>
-				<div class='col-5 col-sm-2 offset-1'>
-					<h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Links<a /></h5>
+				<div class='col-6 col-md-2 offset-lg-1'>
+					<h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Tech<a /></h5>
 					<ul class='list-unstyled'>
-						<li><a href='./index.html' title='Return Home'>Home</a></li>
-						<li><a href='./programming.html' title='Learn More About Our Development Services'>Programming</a></li>
+						<li><a href='../services/app.html' title='Learn More About Our App Development Services'>App Development</a></li>
+						<li><a href='../services/web.html' title='Learn More About Our Website Development Services'>Web Development</a></li>
+						<li><a href='../services/cms.html' title='Learn More About Our Content Management Integration Services'>CMS</a></li>
+					</ul>
+				</div>
+				<div class='col-6 col-md-2'>
+					<h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Marketing<a /></h5>
+					<ul class='list-unstyled'>
+						<li><a href='./services/branding.html' title='Learn More About Our Brand Development Services'>Brand Creation</a></li>
+						<li><a href='./services/seo.html' title='Learn More About Our Search Engine Optimization Services'>SEO</a></li>
+						<li><a href='./services/social.html' title='Learn More About Our Social Media Management Services'>Social Media</a></li>
+					</ul>
+				</div>
+				<div class='col-6 col-md-2'>
+					<h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Finance<a /></h5>
+					<ul class='list-unstyled'>
+						<li><a href='./services/finance.html' title='Learn More About Our Personal Finance Services'>Personal Finance</a></li>
+						<li><a href='./services/admin.html' title='Learn More About Our Business Administration Services'>Administration</a></li>
 						<li><a href='./consulting.html' title='Learn More About Our Business Consulting Services'>Consulting</a></li>
-						<li><a href='./incubation.html' title='Refresh Page'>Incubation</a></li>
+					</ul>
+				</div>
+				<div class='col-6 col-md-2'>
+					<h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Careers<a /></h5>
+					<ul class='list-unstyled'>
+						<li><a href='./index.html' title='Return To Our Home Page'>Home</a></li>
+						<!--				<li><a href='./index.html' title='Return Home'>Employment</a></li>
+								<li><a href='./about.html' title='Learn More About Our Team & History'>About</a></li>
+			-->
+						<li><a href='./incubation.html' title='Learn More About Our Business Incubator & Accelerator' class='active'>Incubation</a></li>
 						<li><a href='./contact.html' title='Visit our Contact Page'>Contact</a></li>
 					</ul>
 				</div>
-				<div class='col-6 col-sm-5'>
-					<h5 class='mb-3'>Location</h5>
-					<address>
-						New York City, <br>
-						New York<br>
-						USA
-						<br>
-						<span class='fas fa-envelope d-none d-md-block'><a href='contact@gordonholdingsco.com' class=''> contact@gordonholdingsco.com</a></span>
-					</address>
-				</div>
-				<div class='col col-sm-4 align-self-center'>
-					<div style='text-align:center'>
+				<div class='col-12 col-md-3 justify-content-center order-first order-lg-last mt-1 mt-lg-3'>
+					<h5 class='col col-12 d-none ml-4 d-lg-block'>Connect With Us</h5>
+					<div class='mt-3 ml-5 ml-md-0' style=''>
 						<a class='btn btn-social-icon btn-facebook ' href='https://www.facebook.com/' title='Connect With Us On Facebook'><span class='fab fa-facebook fa-lg'></span></a>
 						<a class='btn btn-social-icon btn-twitter' href='https://www.twitter.com/' title='Connect With Us On Twitter'><span class='fab fa-twitter fa-lg'></span></a>
 						<a class='btn btn-social-icon ' href='https://www.instagram.com/' title='Connect With Us On Instagram'><span class='fab fa-instagram fa-lg'></span></a>
+						<a class='btn btn-social-icon ' href='https://www.instagram.com/' title='Connect With Us On Instagram'><span class='fab fa-linkedin fa-lg'></span></a>
 						<a class='btn btn-social-icon ' href='mailto:contact@gordonholdingsco.com' title='Email Us'><span class='fas fa-envelope fa-lg'></span></a>
 					</div>
 				</div>
