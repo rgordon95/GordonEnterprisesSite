@@ -47,6 +47,7 @@
   color: $secondaryColor;
   .active {
     background-color: $primaryColor;
+    color: white;
   }
 }
 
@@ -249,6 +250,10 @@
     li {
       margin-top: 7px;
       font-family: AccentFont;
+      a.active {
+        color: $primaryColor;
+        border-bottom: 2px solid white
+      }
     }
      a {
        color: $secondaryColor;

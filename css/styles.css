@@ -24,7 +24,8 @@
 #navbar {
   color: #156a11; }
   #navbar .active {
-    background-color: #0f993e; }
+    background-color: #0f993e;
+    color: white; }
 
 nav {
   z-index: 5;
@@ -168,6 +169,9 @@ body {
     body footer li {
       margin-top: 7px;
       font-family: AccentFont; }
+      body footer li a.active {
+        color: #0f993e;
+        border-bottom: 2px solid white; }
     body footer a {
       color: #156a11; }
       body footer a:hover, body footer a:focus {
