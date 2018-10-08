@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif+KR|Slabo+27px" rel="stylesheet">
 
-    <link rel='stylesheet' href='css/styles.css'>
+    <link rel='stylesheet' href='../css/styles.css'>
 
     <title>404 - Page Not Found | Gordon Enterprises | Not Why, Why Not?</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -50,23 +50,23 @@
         <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class='fas fa-bars fa-lg'></span>
         </button>
-        <!--     <a class='navbar-brand' href='#'> <img src='img/GordonLogo.png' height='30' width='41'> </a>  removed navbar logo img -->
+        <!--     <a class='navbar-brand' href='#'> <img src='../img/GordonLogo.png' height='30' width='41'> </a>  removed navbar logo img -->
         <div class='collapse navbar-collapse' id='navbar'>
           <ul class='navbar-nav mr-auto'>
-            <li class='nav-item'><a class='nav-link' href='./index.html' title='Return Home'> Home</a></li>
+            <li class='nav-item'><a class='nav-link' href='../index.html' title='Return Home'> Home</a></li>
             <div class="btn-group">
               <a type="" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Business <span class="sr-only">Toggle Dropdown</span>
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="./services/admin.html" title='Learn More About Our Business Admin Services'>Administration</a>
-                <a class="dropdown-item" href="./services/branding.html" title='Learn More About Our Branding Services'>Brand Creation</a>
-                <a class="dropdown-item" href="./services/social.html" title='Learn More About Our Social Media Marketing Services'>Social Marketing</a>
+                <a class="dropdown-item" href="./admin.html" title='Learn More About Our Business Admin Services'>Administration</a>
+                <a class="dropdown-item" href="./branding.html" title='Learn More About Our Branding Services'>Brand Creation</a>
+                <a class="dropdown-item" href="./social.html" title='Learn More About Our Social Media Marketing Services'>Social Marketing</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="./services/app.html" title='Learn More About Our App Development Services'>App Development</a>
-                <a class="dropdown-item" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a>
-                <a class="dropdown-item" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>SEO</a>
-                <a class="dropdown-item" href="./services/cms.html" title='Learn More About Our Content Management Services'>CMS</a>
+                <a class="dropdown-item" href="./app.html" title='Learn More About Our App Development Services'>App Development</a>
+                <a class="dropdown-item" href="./web.html" title='Learn More About Our Web Development Services'>Web Development</a>
+                <a class="dropdown-item" href="./seo.html" title='Learn More About Our Search Optimization Services'>SEO</a>
+                <a class="dropdown-item" href="./cms.html" title='Learn More About Our Content Management Services'>CMS</a>
               </div>
             </div>
             <div class="btn-group">
@@ -74,18 +74,18 @@
                 Personal<span class="sr-only">Toggle Dropdown</span>
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="./services/finance.html" title='Learn More About Our Personal Finance Services'>Personal Finance</a>
+                <a class="dropdown-item" href="./finance.html" title='Learn More About Our Personal Finance Services'>Personal Finance</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="./services/app.html" title='Learn More About Our App Development Services'>App Development</a>
-                <a class="dropdown-item" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a>
-                <a class="dropdown-item" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>SEO</a>
-                <a class="dropdown-item" href="./services/cms.html" title='Learn More About Our Content Management Services'>CMS</a>
+                <a class="dropdown-item" href="./app.html" title='Learn More About Our App Development Services'>App Development</a>
+                <a class="dropdown-item" href="./web.html" title='Learn More About Our Web Development Services'>Web Development</a>
+                <a class="dropdown-item" href="./seo.html" title='Learn More About Our Search Optimization Services'>SEO</a>
+                <a class="dropdown-item" href="./cms.html" title='Learn More About Our Content Management Services'>CMS</a>
               </div>
             </div>
-            <!--		<li class='nav-item'><a class='nav-link' href='./brands.html' title='Learn More About Our Brands'>Brands</a></li>
-						<li class='nav-item'><a class='nav-link' href='./about.html' title='Learn More About Us'>About</a></li>
+            <!--		<li class='nav-item'><a class='nav-link' href='../brands.html' title='Learn More About Our Brands'>Brands</a></li>
+						<li class='nav-item'><a class='nav-link' href='../about.html' title='Learn More About Us'>About</a></li>
 		-->
-            <li class='nav-item'><a class='nav-link' href='./contact.html' title='Visit Our Contact Page'> Contact</a></li>
+            <li class='nav-item'><a class='nav-link' href='../contact.html' title='Visit Our Contact Page'> Contact</a></li>
           </ul>
           <span class='mr-5 .d-none .d-lg-inline' id=''>Gordon Enterprises LLC</span>
 
@@ -100,7 +100,7 @@
     <main class='container-fluid'>
       <!-- Container 2-->
       <content class='logo row'>
-        <img src="./img/gordonlogo6finalmb.png" alt="Gordon Enterprises Logo" title='Gordon Enterprises Logo' class='img-fluid'>
+        <img src="../img/gordonlogo6finalmb.png" alt="Gordon Enterprises Logo" title='Gordon Enterprises Logo' class='img-fluid'>
       </content>
 
       <content class='row row-12'>
@@ -110,7 +110,7 @@
             <p class='card-subtitle text-muted'></p>
           </div>
           <div class='card-body row-12'>
-            <img class='card-image img-fluid' src="./img/custom/404monkey.png" alt="404 Error - Page Not Found"  title="404 Error - Page Not Found">
+            <img class='card-image img-fluid' src="../img/custom/404monkey.png" alt="404 Error - Page Not Found"  title="404 Error - Page Not Found">
           </div>
         </div>
       </content>
@@ -124,29 +124,29 @@
           <div class='card-body row '>
             <ul class='list-unstyled col mx-5'>
               <h4>Main</h4>
-              <li class='card-text'><a href='./index.html' title='Return home'>Home</a></li>
-              <li class='card-text'><a href='./consulting.html' title='Learn More About Our Business Consulting Services'>Consulting</a></li>
-              <li class='card-text'><a href='./incubation.html' title='Learn More About Our Startup Incubator'>Incubation</a></li>
-              <li class='card-text'><a href='./contact.html' title='Visit Our Contact page'>Contact</a></li>
+              <li class='card-text'><a href='../index.html' title='Return home'>Home</a></li>
+              <li class='card-text'><a href='../consulting.html' title='Learn More About Our Business Consulting Services'>Consulting</a></li>
+              <li class='card-text'><a href='../incubation.html' title='Learn More About Our Startup Incubator'>Incubation</a></li>
+              <li class='card-text'><a href='../contact.html' title='Visit Our Contact page'>Contact</a></li>
             </ul>
 
             <ul class='list-unstyled col mx-5'>
               <h4>Programming</h4>
-              <li class='card-text'><a class="card-text" href="./services/app.html" title='Learn More About Our App Development Services'>App Development</a></li>
-              <li class='card-text'><a class="card-text" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a></li>
-              <li class='card-text'><a class="card-text" href="./services/cms.html" title='Learn More About Our Content Management Services'>CMS</a></li>
+              <li class='card-text'><a class="card-text" href="./app.html" title='Learn More About Our App Development Services'>App Development</a></li>
+              <li class='card-text'><a class="card-text" href="./web.html" title='Learn More About Our Web Development Services'>Web Development</a></li>
+              <li class='card-text'><a class="card-text" href="./cms.html" title='Learn More About Our Content Management Services'>CMS</a></li>
             </ul>
             <ul class='list-unstyled col mx-5'>
               <h4>Marketing</h4>
-              <li class='card-text'><a class="card-text" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>SEO</a></li>
-              <li><a class="card-text" href="./services/branding.html" title='Learn More About Our Branding Services'>Brand Creation</a></li>
-              <li><a class="card-text" href="./services/social.html" title='Learn More About Our Social Media Marketing Services'>Social Media</a></li>
+              <li class='card-text'><a class="card-text" href="./seo.html" title='Learn More About Our Search Optimization Services'>SEO</a></li>
+              <li><a class="card-text" href="./branding.html" title='Learn More About Our Branding Services'>Brand Creation</a></li>
+              <li><a class="card-text" href="./social.html" title='Learn More About Our Social Media Marketing Services'>Social Media</a></li>
             </ul>
 
             <ul class='list-unstyled col mx-5'>
               <h4 class=''>Finance</h5>
-                <li><a href='../services/admin.html' title='Return Home'>Administration</a></li>
-                <li><a href='../services/finance.html' title='Visit our Contact Page'>Personal Finance</a></li>
+                <li><a href='./admin.html' title='Return Home'>Administration</a></li>
+                <li><a href='./finance.html' title='Visit our Contact Page'>Personal Finance</a></li>
             </ul>
           </div>
           <h2 class='card-title'>External</h2>
@@ -177,38 +177,38 @@
     <footer class='footer container-fluid'>
       <div class='row'>
         <div class='col-6 col-md-2 offset-lg-1'>
-          <h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Tech<a /></h5>
+          <h5 class='mb-3'><a href='../sitemap.html' title='View Sitemap'>Tech<a /></h5>
           <ul class='list-unstyled'>
-            <li><a href='./services/app.html' title='Learn More About Our App Development Services'>App Development</a></li>
-            <li><a href='./services/web.html' title='Learn More About Our Website Development Services'>Web Development</a></li>
-            <li><a href='./services/cms.html' title='Learn More About Our Content Management Integration Services'>CMS</a></li>
+            <li><a href='./app.html' title='Learn More About Our App Development Services'>App Development</a></li>
+            <li><a href='./web.html' title='Learn More About Our Website Development Services'>Web Development</a></li>
+            <li><a href='./cms.html' title='Learn More About Our Content Management Integration Services'>CMS</a></li>
           </ul>
         </div>
         <div class='col-6 col-md-2'>
-          <h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Marketing<a /></h5>
+          <h5 class='mb-3'><a href='../sitemap.html' title='View Sitemap'>Marketing<a /></h5>
           <ul class='list-unstyled'>
-            <li><a href='./services/branding.html' title='Learn More About Our Brand Development Services'>Brand Creation</a></li>
-            <li><a href='./services/seo.html' title='Learn More About Our Search Engine Optimization Services'>SEO</a></li>
-            <li><a href='./services/social.html' title='Learn More About Our Social Media Management Services'>Social Media</a></li>
+            <li><a href='./branding.html' title='Learn More About Our Brand Development Services'>Brand Creation</a></li>
+            <li><a href='./seo.html' title='Learn More About Our Search Engine Optimization Services'>SEO</a></li>
+            <li><a href='./social.html' title='Learn More About Our Social Media Management Services'>Social Media</a></li>
           </ul>
         </div>
         <div class='col-6 col-md-2'>
-          <h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Finance<a /></h5>
+          <h5 class='mb-3'><a href='../sitemap.html' title='View Sitemap'>Finance<a /></h5>
           <ul class='list-unstyled'>
-            <li><a href='./services/finance.html' title='Learn More About Our Personal Finance Services'>Personal Finance</a></li>
-            <li><a href='./services/admin.html' title='Learn More About Our Business Administration Services'>Administration</a></li>
-            <li><a href='./consulting.html' title='Learn More About Our Business Consulting Services'>Consulting</a></li>
+            <li><a href='./finance.html' title='Learn More About Our Personal Finance Services'>Personal Finance</a></li>
+            <li><a href='./admin.html' title='Learn More About Our Business Administration Services'>Administration</a></li>
+            <li><a href='../consulting.html' title='Learn More About Our Business Consulting Services'>Consulting</a></li>
           </ul>
         </div>
         <div class='col-6 col-md-2'>
-          <h5 class='mb-3'><a href='./sitemap.html' title='View Sitemap'>Careers<a /></h5>
+          <h5 class='mb-3'><a href='../sitemap.html' title='View Sitemap'>Careers<a /></h5>
           <ul class='list-unstyled'>
-            <li><a href='./index.html' title='Refresh Page' class=''>Home</a></li>
+            <li><a href='../index.html' title='Refresh Page' class=''>Home</a></li>
             <!--				<li><a href='./index.html' title='Return Home'>Employment</a></li>
-                <li><a href='./about.html' title='Learn More About Our Team & History'>About</a></li>
+                <li><a href='../about.html' title='Learn More About Our Team & History'>About</a></li>
       -->
-            <li><a href='./incubation.html' title='Learn More About Our Business Incubator & Accelerator'>Incubation</a></li>
-            <li><a href='./contact.html' title='Visit our Contact Page'>Contact</a></li>
+            <li><a href='../incubation.html' title='Learn More About Our Business Incubator & Accelerator'>Incubation</a></li>
+            <li><a href='../contact.html' title='Visit our Contact Page'>Contact</a></li>
           </ul>
         </div>
         <div class='col-12 col-md-3 justify-content-center order-first order-lg-last mt-1 mt-lg-3'>
