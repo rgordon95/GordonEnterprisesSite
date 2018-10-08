@@ -110,7 +110,7 @@
             <p class='card-subtitle text-muted'></p>
           </div>
           <div class='card-body row-12'>
-            <img class='card-image img-fluid' src="./img/custom/404monkey.png" alt="404 Error - Page Not Found">
+            <img class='card-image img-fluid' src="./img/custom/404monkey.png" alt="404 Error - Page Not Found"  title="404 Error - Page Not Found">
           </div>
         </div>
       </content>
@@ -170,10 +170,7 @@
               <li><a class="card-text" href="." title='Connect With Us On LinkedIn'>LinkedIn</a></li>
               <li><a class="card-text" href="." title='Connect With Us On Instagram'>Instagram</a></li>
               <li><a class="card-text" href="." title='Email Us'>Email</a></li>
-
-
             </ul>
-
           </div>
       </content>
     </main>
