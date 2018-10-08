@@ -23,6 +23,8 @@
 
 #navbar {
   color: #156a11; }
+  #navbar .active {
+    background-color: #0f993e; }
 
 nav {
   z-index: 5;

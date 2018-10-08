@@ -45,6 +45,9 @@
 
 #navbar {
   color: $secondaryColor;
+  .active {
+    background-color: $primaryColor;
+  }
 }
 
     nav {
