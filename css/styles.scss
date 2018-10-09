@@ -49,6 +49,7 @@
     background-color: $primaryColor;
     color: white;
   }
+
 }
 
     nav {
@@ -72,13 +73,14 @@
          color: $hoverColor;
          background-color: $gray;
        }
-       &:focus {
+       &:focus, &:target {
          color: $highlightColor;
          color: $hoverColor;
          background-color: $gray;
        }
        &:active {
          border-bottom: solid 1px $secondaryColor;
+         background-color: $highlightColor;
        }
      }
     li a .dropdown-toggle{
@@ -408,51 +410,6 @@ content.hours {
     margin-top: 5px;
   }
 }
-  content.service1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: $primaryColor;
-  padding-bottom: 35px;
-  h2 {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding-top: 25px;
-  }
-  h4 {
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px;
-  }
-  p {
-    text-align: center;
-    margin-top: 25px;
-  }
-  .title-icon {
-    margin-top: 20px;
-  }
-}
-
-content.service3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: $primaryColor;
-  padding-bottom: 35px;
-  h2 {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding-top: 25px;
-  }
-  h4 {
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px;
-  }
-  p {
-    text-align: center;
-    margin-top: 25px;
-  }
-  .title-icon {
-    margin-top: 20px;
-  }
-}
 
 content.service2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -478,19 +435,12 @@ content.service2 {
     margin-top: 50px;
   }
 }
-content.service1 img {
-  padding-left: 35px;
-  width: 90%;
-}
-content.service2 img {
-  padding: 15px;
-  width: 90%;
-}
-content.service3 img {
-  padding-left: 35px;
-  width: 90%;
 
+content.service2 img {
+  padding-top: 35px;
+  width: 90%;
 }
+
 
 #specialIMG {
   height: 550px;

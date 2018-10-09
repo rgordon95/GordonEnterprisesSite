@@ -43,12 +43,13 @@ nav {
     nav a:hover {
       color: #222429;
       background-color: rgba(150, 147, 146, 0.21); }
-    nav a:focus {
+    nav a:focus, nav a:target {
       color: #156a11;
       color: #222429;
       background-color: rgba(150, 147, 146, 0.21); }
     nav a:active {
-      border-bottom: solid 1px #156a11; }
+      border-bottom: solid 1px #156a11;
+      background-color: #156a11; }
 
 .alert {
   font-family: Quicksand; }
@@ -284,42 +285,6 @@ content.hours {
     text-align: center;
     margin-top: 5px; }
 
-content.service1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: #0f993e;
-  padding-bottom: 35px; }
-  content.service1 h2 {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding-top: 25px; }
-  content.service1 h4 {
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px; }
-  content.service1 p {
-    text-align: center;
-    margin-top: 25px; }
-  content.service1 .title-icon {
-    margin-top: 20px; }
-
-content.service3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: #0f993e;
-  padding-bottom: 35px; }
-  content.service3 h2 {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding-top: 25px; }
-  content.service3 h4 {
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px; }
-  content.service3 p {
-    text-align: center;
-    margin-top: 25px; }
-  content.service3 .title-icon {
-    margin-top: 20px; }
-
 content.service2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #0f993e;
@@ -339,16 +304,8 @@ content.service2 {
   content.service2 .social-icons-wrapper {
     margin-top: 50px; }
 
-content.service1 img {
-  padding-left: 35px;
-  width: 90%; }
-
 content.service2 img {
-  padding: 15px;
-  width: 90%; }
-
-content.service3 img {
-  padding-left: 35px;
+  padding-top: 35px;
   width: 90%; }
 
 #specialIMG {
