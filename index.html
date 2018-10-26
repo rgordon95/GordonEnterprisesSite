@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif+KR|Slabo+27px" rel="stylesheet">
-		<script async src='https://www.google.com/recaptcha/api.js'></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<link rel='stylesheet' href='css/styles.css'>
 
@@ -30,8 +30,8 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126288073-1"></script>
-		<script async>
+		<script src="https://www.googletagmanager.com/gtag/js?id=UA-126288073-1"></script>
+		<script >
 			window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -222,34 +222,25 @@
 								<!-- Start form -->
 								<!-- Post request to php script -->
 								<form action="./php/feedback_handler.php" method="post" name="form">
-
 									<div class="form-group">
 										<input type="text" name="name" class="form-control" placeholder="Name" required><br>
 									</div>
-
 									<div class="form-group">
 										<input type="email" name="email" class="form-control" placeholder="Email" required><br>
 									</div>
-
 									<div class="form-group">
 										<input type="tel" name="phone" class="form-control" placeholder="Phone" required><br>
 									</div>
-
 									<div class="form-group">
 										<input type="subject" name="subject" class="form-control" placeholder="Subject" required><br>
 									</div>
-
 									<div class="form-group">
 										<textarea name="msg" class="form-control" placeholder="Enter Your Message..." rows="4" required></textarea><br>
 									</div>
-
 									<div id="captcha">
 										<div class="g-recaptcha" data-sitekey="6LftiXEUAAAAAAIy_JZBoVYbDeGrgO0hZ_FJ_iim"></div>
-
 									</div>
-
 									<input type="submit" name="submit" value="Send" class="btn btn-lg btn-primary btn-block">
-
 								</form>
 							</div>
 
@@ -314,10 +305,10 @@
 			</div>
 		</footer>
 		<!-- jQuery first, then Tether, then Bootstrap JS. -->
-		<script async src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		<script async src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js' crossorigin='anonymous'></script>
-		<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-		<script async type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js' crossorigin='anonymous'></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
 
 		<!-- Submit form to php -->
 		<script async >
