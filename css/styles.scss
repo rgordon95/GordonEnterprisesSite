@@ -429,9 +429,14 @@ content.service2 {
   }
   .social-icons-wrapper {
     margin-top: 50px;
+    a span {
+      color: $secondaryColor;
+        &:hover, &:focus {
+        color: $primaryColor;
+      }
   }
+ }
 }
-
 content.service2 img {
   padding-top: 35px;
   width: 90%;
