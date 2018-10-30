@@ -55,6 +55,18 @@
           <ul class='navbar-nav mr-auto'>
             <li class='nav-item'><a class='nav-link' href='../index.html' title='Return Home'> Home</a></li>
             <div class="btn-group">
+              <a type="" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About <span class="sr-only">Toggle Dropdown</span>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="../consulting.html" title='Learn More About Our Consulting Services'>Consulting</a>
+                <a class="dropdown-item" href="../incubation.html" title='Learn More About Our Incubation Services'>Incubation</a>
+                <!--    <div class="dropdown-divider"></div>
+                    <<a class='nav-link' href='../team.html' title='Learn More About Us'>Our Team</a>
+            -->
+              </div>
+            </div>
+            <div class="btn-group">
               <a type="" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Business <span class="sr-only">Toggle Dropdown</span>
               </a>
@@ -82,9 +94,7 @@
                 <a class="dropdown-item" href="./cms.html" title='Learn More About Our Content Management Services'>CMS</a>
               </div>
             </div>
-            <!--		<li class='nav-item'><a class='nav-link' href='../brands.html' title='Learn More About Our Brands'>Brands</a></li>
-						<li class='nav-item'><a class='nav-link' href='../about.html' title='Learn More About Us'>About</a></li>
-		-->
+
             <li class='nav-item'><a class='nav-link' href='../contact.html' title='Visit Our Contact Page'> Contact</a></li>
           </ul>
           <span class='mr-5 .d-none .d-lg-inline' id=''>Gordon Enterprises LLC</span>
