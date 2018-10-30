@@ -73,12 +73,16 @@
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="./services/admin.html" title='Learn More About Our Business Admin Services'>Administration</a>
                 <a class="dropdown-item" href="./services/branding.html" title='Learn More About Our Branding Services'>Brand Creation</a>
-                <a class="dropdown-item" href="./services/social.html" title='Learn More About Our Social Media Marketing Services'>Social Marketing</a>
+                <a class="dropdown-item" href="./services/social.html" title='Learn More About Our Social Media Marketing Services'>Social Media</a>
+                <a class="dropdown-item" href="./services/research.html" title='Learn More About Our Market Research Services'>Market Research</a>
+
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="./services/app.html" title='Learn More About Our App Development Services'>App Development</a>
                 <a class="dropdown-item" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a>
                 <a class="dropdown-item" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>SEO</a>
                 <a class="dropdown-item" href="./services/cms.html" title='Learn More About Our Content Management Services'>CMS</a>
+                <a class="dropdown-item " href="./services/speed.html" title='Learn More About Our Page Speed Optimization Services'>Page Speed Optimization</a>
+
               </div>
             </div>
             <div class="btn-group">
@@ -92,6 +96,8 @@
                 <a class="dropdown-item" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a>
                 <a class="dropdown-item" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>SEO</a>
                 <a class="dropdown-item" href="./services/cms.html" title='Learn More About Our Content Management Services'>CMS</a>
+                <a class="dropdown-item " href="./services/speed.html" title='Learn More About Our Page Speed Optimization Services'>Page Speed Optimization</a>
+
               </div>
             </div>
             <li class='nav-item '><a class='nav-link ' href='../brands.html' title='Learn More About Our Brands'>Brands</a></li>
@@ -145,6 +151,8 @@
               <li class='card-text'><a class="card-text" href="./services/app.html" title='Learn More About Our App Development Services'>App Development</a></li>
               <li class='card-text'><a class="card-text" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a></li>
               <li class='card-text'><a class="card-text" href="./services/cms.html" title='Learn More About Our Content Management Services'>CMS</a></li>
+              <li class='card-text'><a class="card-text " href="./services/speed.html" title='Learn More About Our Page Speed Optimization Services'>Page Speed Optimization</a></li>
+
             </ul>
             <ul class='list-unstyled col mx-5'>
               <h4>Marketing</h4>
@@ -190,6 +198,8 @@
             <li><a href='./services/app.html' title='Learn More About Our App Development Services'>App Development</a></li>
             <li><a href='./services/web.html' title='Learn More About Our Website Development Services'>Web Development</a></li>
             <li><a href='./services/cms.html' title='Learn More About Our Content Management Integration Services'>CMS</a></li>
+            <li><a href='./services/speed.html' title='Learn More About Our Page Speed Optimization Services'>Page Speed</a></li>
+
           </ul>
         </div>
         <div class='col-6 col-md-2'>
@@ -198,6 +208,8 @@
             <li><a href='./services/branding.html' title='Learn More About Our Brand Development Services'>Brand Creation</a></li>
             <li><a href='./services/seo.html' title='Learn More About Our Search Engine Optimization Services'>SEO</a></li>
             <li><a href='./services/social.html' title='Learn More About Our Social Media Management Services'>Social Media</a></li>
+            <li><a href='./services/research.html' title='Learn More About Our Market Research Services'>Market Research</a></li>
+
           </ul>
         </div>
         <div class='col-6 col-md-2'>
@@ -215,6 +227,7 @@
             <!--				<li><a href='./index.html' title='Return Home'>Employment</a></li>
                 <li><a href='./about.html' title='Learn More About Our Team & History'>About</a></li>
       -->
+            <li><a href='./brands.html' title='Learn More About Our Brands'>Brands</a></li>
             <li><a href='./incubation.html' title='Learn More About Our Business Incubator & Accelerator'>Incubation</a></li>
             <li><a href='./contact.html' title='Visit our Contact Page'>Contact</a></li>
           </ul>
@@ -232,7 +245,7 @@
       </div>
       <div class='row justify-content-center'>
         <div class='col col-auto'>
-          <p>Created by Gordon Enterprises</p></a>
+          <p>Created by Gordon Enterprises</p>
         </div>
       </div>
     </footer>
