@@ -141,6 +141,7 @@
             <ul class='list-unstyled col mx-5'>
               <h4>Main</h4>
               <li class='card-text'><a href='./index.html' title='Return home'>Home</a></li>
+              <li class='card-text'><a href='./brands.html' title='Learn More About Our Brands'>Brands</a></li>
               <li class='card-text'><a href='./consulting.html' title='Learn More About Our Business Consulting Services'>Consulting</a></li>
               <li class='card-text'><a href='./incubation.html' title='Learn More About Our Startup Incubator'>Incubation</a></li>
               <li class='card-text'><a href='./contact.html' title='Visit Our Contact page'>Contact</a></li>
