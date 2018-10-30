@@ -156,6 +156,8 @@
               <li class='card-text'><a class="card-text" href="./seo.html" title='Learn More About Our Search Optimization Services'>SEO</a></li>
               <li><a class="card-text" href="./branding.html" title='Learn More About Our Branding Services'>Brand Creation</a></li>
               <li><a class="card-text" href="./social.html" title='Learn More About Our Social Media Marketing Services'>Social Media</a></li>
+              <li><a class='card-text' href='./services/research.html' title='Learn More About Our Market Research Services'>Market Research</a></li>
+
             </ul>
 
             <ul class='list-unstyled col mx-5'>
