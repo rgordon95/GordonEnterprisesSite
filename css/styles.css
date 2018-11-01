@@ -300,6 +300,10 @@ content.service2 {
     padding-left: 5px; }
   content.service2 .social-icons-wrapper {
     margin-top: 50px; }
+    content.service2 .social-icons-wrapper a span {
+      color: #156a11; }
+      content.service2 .social-icons-wrapper a span:hover, content.service2 .social-icons-wrapper a span:focus {
+        color: #0f993e; }
 
 content.service2 img {
   padding-top: 35px;

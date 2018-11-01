@@ -55,17 +55,33 @@
 						<li class='nav-item'><a class='nav-link' href='./index.html' title='Return Home'> Home</a></li>
 						<div class="btn-group">
 							<a type="" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								About <span class="sr-only">Toggle Dropdown</span>
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item active" href="../consulting.html" title='Learn More About Our Consulting Services'>Consulting</a>
+								<a class="dropdown-item" href="../incubation.html" title='Learn More About Our Incubation Services'>Incubation</a>
+								<!--    <div class="dropdown-divider"></div>
+										<<a class='nav-link' href='../team.html' title='Learn More About Us'>Our Team</a>
+						-->
+							</div>
+						</div>
+						<div class="btn-group">
+							<a type="" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Business <span class="sr-only">Toggle Dropdown</span>
 							</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="./services/admin.html" title='Learn More About Our Business Admin Services'>Administration</a>
 								<a class="dropdown-item" href="./services/branding.html" title='Learn More About Our Branding Services'>Brand Creation</a>
 								<a class="dropdown-item" href="./services/social.html" title='Learn More About Our Social Media Marketing Services'>Social Media</a>
+								<a class="dropdown-item" href="./services/research.html" title='Learn More About Our Market Research Services'>Market Research</a>
+
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="./services/app.html" title='Learn More About Our App Development Services'>App Development</a>
 								<a class="dropdown-item" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a>
 								<a class="dropdown-item" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>Search Rankings (SEO)</a>
 								<a class="dropdown-item" href="./services/cms.html" title='Learn More About Our Content Management Services'>Content Management (CMS)</a>
+								<a class="dropdown-item " href="./services/speed.html" title='Learn More About Our Page Speed Optimization Services'>Page Speed Optimization</a>
+
 							</div>
 						</div>
 						<div class="btn-group">
@@ -79,11 +95,11 @@
 								<a class="dropdown-item" href="./services/web.html" title='Learn More About Our Web Development Services'>Web Development</a>
 								<a class="dropdown-item" href="./services/seo.html" title='Learn More About Our Search Optimization Services'>Search Rankings (SEO)</a>
 								<a class="dropdown-item" href="./services/cms.html" title='Learn More About Our Content Management Services'>Content Management (CMS)</a>
+								<a class="dropdown-item " href="./services/speed.html" title='Learn More About Our Page Speed Optimization Services'>Page Speed Optimization</a>
+
 							</div>
 						</div>
-						<!--	<li class='nav-item'><a class='nav-link' href='../brands.html' title='Learn More About Our Brands'>Brands</a></li>
-						<li class='nav-item'><a class='nav-link' href='../about.html' title='Learn More About Us'>About</a></li>
-			-->
+						<li class='nav-item '><a class='nav-link ' href='../brands.html' title='Learn More About Our Brands'>Brands</a></li>
 						<li class='nav-item'><a class='nav-link' href='../contact.html' title='Visit Our Contact Page'> Contact</a></li>
 					</ul>
 					<span class='mr-5 .d-none .d-lg-inline' id=''>Gordon Enterprises LLC</span>
@@ -168,7 +184,7 @@
 						</ul>
 					</div>
 					<div class='row-12'>
-						<a class='btn btn-success mt-3'  type='button'  href='../services/finance.html'>Learn More</a>
+						<a class='btn btn-success mt-3' type='button' href='../services/finance.html'>Learn More</a>
 					</div>
 				</div>
 				<div class="col col-12 col-lg-6">
@@ -335,7 +351,7 @@
 						</ul>
 					</div>
 					<div class='row-12'>
-						<a class='btn btn-success mt-3 '  type='button' href='../incubation.html'>Learn More</a>
+						<a class='btn btn-success mt-3 ' type='button' href='../incubation.html'>Learn More</a>
 					</div>
 				</div>
 			</content>
@@ -404,6 +420,8 @@
 						<li><a href='../services/app.html' title='Learn More About Our App Development Services'>App Development</a></li>
 						<li><a href='../services/web.html' title='Learn More About Our Website Development Services'>Web Development</a></li>
 						<li><a href='../services/cms.html' title='Learn More About Our Content Management Integration Services'>CMS</a></li>
+						<li><a href='../services/speed.html' title='Learn More About Our Page Speed Optimization Services'>Page Speed</a></li>
+
 					</ul>
 				</div>
 				<div class='col-6 col-md-2'>
@@ -412,6 +430,8 @@
 						<li><a href='./services/branding.html' title='Learn More About Our Brand Development Services'>Brand Creation</a></li>
 						<li><a href='../services/seo.html' title='Learn More About Our Search Engine Optimization Services'>SEO</a></li>
 						<li><a href='../services/social.html' title='Learn More About Our Social Media Management Services'>Social Media</a></li>
+						<li><a href='../services/research.html' title='Learn More About Our Market Research Services'>Market Research</a></li>
+
 					</ul>
 				</div>
 				<div class='col-6 col-md-2'>
@@ -429,6 +449,7 @@
 						<!--				<li><a href='./index.html' title='Return Home'>Employment</a></li>
 								<li><a href='./about.html' title='Learn More About Our Team & History'>About</a></li>
 			-->
+						<li><a href='./brands.html' title='Learn More About Our Brands'>Brands</a></li>
 						<li><a href='./incubation.html' title='Learn More About Our Business Incubator & Accelerator'>Incubation</a></li>
 						<li><a href='./contact.html' title='Visit our Contact Page'>Contact</a></li>
 					</ul>
@@ -457,7 +478,7 @@
 		<script async type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
 
 		<!-- Submit form to php -->
-		<script async >
+		<script async>
 			$("form").on("submit", function(e) {
 				e.preventDefault();
 				if (grecaptcha.getResponse().length !== 0) {
