@@ -82,9 +82,13 @@
          border-bottom: solid 1px $secondaryColor;
          background-color: $highlightColor;
        }
+       &.dropdown-item:active {
+       color: floralwhite;
+       background-color: $highlightColor;
+       text-decoration: none;
+   }
      }
-    li a .dropdown-toggle{
-    }
+
   }
 
   .alert {

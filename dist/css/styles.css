@@ -50,6 +50,10 @@ nav {
     nav a:active {
       border-bottom: solid 1px #156a11;
       background-color: #156a11; }
+    nav a.dropdown-item:active {
+      color: floralwhite;
+      background-color: #156a11;
+      text-decoration: none; }
 
 .alert {
   font-family: Quicksand; }
