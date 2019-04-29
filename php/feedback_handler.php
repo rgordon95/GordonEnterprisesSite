@@ -31,7 +31,7 @@
     		$msg=$_POST['msg'];
     		$to='contact@gordonholdingsco.com'; // Receiver Email ID, Replace with your email ID
     		$subject='Gordon Enterprises';
-    		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+    		$message="Name :".$name."\n"."Email :".$email."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
     		$headers="From: rich@gordonholdingsco.com";
     		if(mail($to, $subject, $message, $headers)){
                 header("Location: ../index.html");
